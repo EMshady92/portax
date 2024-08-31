@@ -17,7 +17,7 @@
                         <img class="w-10 h-10" title="PHP" src="{{asset('images/php.png')}}">
                     </div>
                     <div>
-                        <img class="w-10 h-10" title="JavaScript" src="{{asset('images/js.png')}}">
+                        <img class="w-10 h-10" title="JavaScript" src="{{asset('images/JS.png')}}">
                     </div>
                 </div>
 
