@@ -31,7 +31,7 @@
 			<img src="images/logo.png" style="width: 120px;">
 	</div><!-- logo -->
 	<div class="simple-page-form animated flipInY" id="login-form">
-	<h4 class="form-title m-b-xl text-center">Iniciar Sesión</h4>
+	<h4 class="form-title m-b-xl text-center">te amo mi amor :*</h4>
 
 		<div class="form-group">
 			<input id="email" name="email" type="text" class="form-control" placeholder="Email">
