@@ -306,7 +306,23 @@
     </script>
     <style>
   <style>
-        @media (min-width: 640px) {
+
+    @media (min-width: 350px) {
+    .img-widt{
+        width:10%;
+        width:150px;
+
+    }
+}
+
+    @media (min-width: 540px) {
+    .img-widt{
+        width:20%;
+        width:150px;
+
+    }
+}
+    @media (min-width: 640px) {
     .img-widt{
         width:30%;
         width:150px;
