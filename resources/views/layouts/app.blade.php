@@ -304,5 +304,36 @@
     </div>
     <script>
     </script>
+    <style>
+  <style>
+        @media (min-width: 640px) {
+    .img-widt{
+        width:30%;
+        width:150px;
+    }
+}
+
+@media (min-width: 1640px) {
+    .img-widt{
+        width:30%;
+        width:150px;
+    }
+}
+
+
+@media (min-width: 1760px) {
+    .img-widt{
+      width:30%;
+      width:150px;
+    }
+}
+
+@media (min-width: 1940px) {
+    .img-widt{
+      width:30%;
+    }
+}
+    </style>
+    </style>
 </body>
 </html>

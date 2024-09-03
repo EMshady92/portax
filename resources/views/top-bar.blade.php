@@ -1,16 +1,14 @@
 
 <div class="w-full grid ">
     <div class=" bg-[#011629] w-[100%] rounded-lg py-1 flex shadow-xl">
-        <div class="w-[10%]">
-            <img class="w-100 h-20   shadow-lg mx-2 z-10" src="{{asset('images/logo_port.png')}}">
+        <div class="w-[20%]">
+            <img class="img-widt   shadow-lg mx-2" src="{{asset('images/logo_port.png')}}">
 
         </div>
-{{--         <div class="w-1/3">
-            <label  style="text-shadow: 1px 2px #5d7081; !important" class="font-roboto text-white shadow-md text-3xl"></label>
-        </div> --}}
+
          @include('sections.modal_aboutme')
         <div class="w-full flex justify-end">
-            <div class="grid grid-cols-4 divide-x-0 w-3/4 mx-2 text-white  place-items-center font-roboto text-3xl ">
+            <div class="grid grid-cols-4 divide-x-0 w-3/4 mx-2 text-white  place-items-center font-roboto 2xl:text-3xl xl:text-2xl lg:text-xl md:text-xl sm:text-xl">
                 <div onclick="mostrar_modal('modal_aboutme');" class="w-full cursor-pointer hover:bg-[#5d7081] hover:rounded-b-lg flex justify-center h-full place-items-center">{{ __('index.about_me')}}</div>
                 <div class="w-full cursor-pointer hover:bg-[#5d7081] hover:rounded-b-lg flex justify-center h-full place-items-center">Contacto</div>
 
@@ -41,6 +39,7 @@
         </div>
     </div>
     <hr class="animated-hr">
+
 <script>
 
 function myFunction() {
