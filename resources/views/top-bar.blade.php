@@ -8,9 +8,9 @@
 
          @include('sections.modal_aboutme')
         <div class="w-full flex justify-end">
-            <div class="grid grid-cols-4 divide-x-0 w-3/4 mx-2 text-white  place-items-center font-roboto 2xl:text-3xl xl:text-2xl lg:text-xl md:text-xl sm:text-xl ms:text-lg">
+            <div class="grid grid-cols-3 divide-x-0 w-3/4 mx-2 text-white  place-items-center font-roboto 2xl:text-3xl xl:text-2xl lg:text-xl md:text-xl sm:text-xl ms:text-lg">
                 <div onclick="mostrar_modal('modal_aboutme');" class="w-full cursor-pointer hover:bg-[#5d7081] hover:rounded-b-lg flex justify-center h-full place-items-center">{{ __('index.about_me')}}</div>
-                <div class="w-full cursor-pointer hover:bg-[#5d7081] hover:rounded-b-lg flex justify-center h-full place-items-center">Contacto</div>
+
 
 
 

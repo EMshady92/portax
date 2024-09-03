@@ -310,7 +310,7 @@
     @media (min-width: 350px) {
     .img-widt{
         width:10%;
-        width:150px;
+        width:130px;
 
     }
 }
