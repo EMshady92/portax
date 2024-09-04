@@ -306,6 +306,14 @@
     </script>
     <style>
   <style>
+    @media (min-width: 290px) {
+    .img-widt{
+        width:8%;
+        width:120px;
+
+    }
+}
+
 
     @media (min-width: 350px) {
     .img-widt{
@@ -327,12 +335,31 @@
         width:30%;
         width:150px;
     }
+
+    .margin_title{
+        margin-left:15px;
+    }
+}
+
+@media (min-width: 1540px) {
+    .img-widt{
+        width:30%;
+        width:150px;
+    }
+
+    .margin_title{
+        margin-left:130px;
+    }
 }
 
 @media (min-width: 1640px) {
     .img-widt{
         width:30%;
         width:150px;
+    }
+
+    .margin_title{
+        margin-left:150px;
     }
 }
 
@@ -342,12 +369,16 @@
       width:30%;
       width:150px;
     }
+    .margin_title{
+        margin-left:250px;
+    }
 }
 
 @media (min-width: 1940px) {
     .img-widt{
       width:30%;
     }
+
 }
     </style>
     </style>

@@ -1,10 +1,8 @@
 <div class="w-1/2 h-full mt-[20rem]">
     <div class="flex w-full">
-        <div class="w-1/3">
 
-        </div>
 
-        <div class="w-2/3 ">
+        <div class="w-full margin_title">
             <h1 style="text-shadow: 2px 2px 5px #011629;" class=" font-roboto text-6xl text-white">
                {{__('index.web_developer')}}
             </h1>
