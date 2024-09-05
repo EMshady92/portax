@@ -135,6 +135,7 @@
 
   .floating {
     animation: float 6s ease-in-out infinite;
+    box-sizing: border-box;
   }
 
   @keyframes giro {
