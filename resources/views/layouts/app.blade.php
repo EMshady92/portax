@@ -990,6 +990,7 @@
 .image_w_h{
     width:27.5rem;
     height:27.5rem;
+    box-sizing: border-box;
 }
 
 .div_img{
