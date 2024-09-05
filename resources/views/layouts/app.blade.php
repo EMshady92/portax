@@ -307,34 +307,142 @@
     <style>
   <style>
     @media (min-width: 290px) {
-    .img-widt{
+        .img-widt{
         width:8%;
-        width:120px;
-
+        width:150px;
     }
+
+    .margin_title{
+        margin-left:15px;
+    }
+
+    .title_1{
+        font-size: 2.3rem;
+        line-height: 1;
+    }
+
+    .title_2 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    }
+
+    .image_w_h{
+    width:20rem;
+    height:20rem;
+}
+
+    .div_img{
+        width:20.5rem;
+        height:20.7rem;
+    }
+
+    .flex_grid{
+    display:grid
+}
+
+.margin-all{
+     margin-top:5rem;
+     justify-content: center;
+     width: 100%;
+}
+.margin-t-image {
+    margin-top:5rem;
+    justify-content: center;
+    width: 100%;
+}
 }
 
 
     @media (min-width: 350px) {
-    .img-widt{
+        .img-widt{
         width:10%;
-        width:130px;
-
+        width:150px;
     }
+
+    .margin_title{
+        margin-left:15px;
+    }
+
+    .title_1{
+        font-size: 2.3rem;
+        line-height: 1;
+    }
+
+    .title_2 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    }
+
+    .image_w_h{
+    width:20rem;
+    height:20rem;
+}
+
+    .div_img{
+        width:20.5rem;
+        height:20.7rem;
+    }
+
+    .flex_grid{
+    display:grid
+}
+
+.margin-all{
+     margin-top:5rem;
+     justify-content: center;
+     width: 100%;
+}
+.margin-t-image {
+    margin-top:5rem;
+    justify-content: center;
+    width: 100%;
+}
 }
 
 
     @media (min-width: 540px) {
-    .img-widt{
+        .img-widt{
         width:20%;
         width:150px;
-
     }
-    .margin-all{
+
+    .margin_title{
+        margin-left:15px;
+    }
+
+    .title_1{
+        font-size: 2.3rem;
+        line-height: 1;
+    }
+
+    .title_2 {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    }
+
+    .image_w_h{
+    width:20rem;
+    height:20rem;
+}
+
+    .div_img{
+        width:20.5rem;
+        height:20.7rem;
+    }
+
+    .flex_grid{
+    display:grid
+}
+
+.margin-all{
      margin-top:5rem;
+     justify-content: center;
+     width: 100%;
 }
 .margin-t-image {
     margin-top:5rem;
+    justify-content: center;
+    width: 100%;
 }
 
 }
