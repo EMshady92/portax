@@ -1124,6 +1124,10 @@
  .rounded_img{
     border-radius: 100%;
     box-sizing: border-box;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
  }
 
     </style>
