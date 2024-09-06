@@ -17,8 +17,8 @@
     </div>
 </div>
 <div class="w-1/2 sm:w-full  h-full justify-items-start margin-t-image ">
-    <div class="floating aos-init aos-animate rounded-full bg-[#172c3d] div_img block shadow-xl  border-dashed border-[5px] border-[#011629]">
-        <img class="image_w_h rounded-full aos-init aos-animate" src="{{asset('images/me.png')}}">
+    <div class="floating aos-init aos-animate rounded_img bg-[#172c3d] div_img block shadow-xl  border-dashed border-[5px] border-[#011629]">
+        <img class="image_w_h rounded_img aos-init aos-animate" src="{{asset('images/me.png')}}">
     </div>
 
 </div>
