@@ -376,13 +376,13 @@
     }
 
     .image_w_h{
-    width:20rem;
-    height:20rem;
+    width:18rem;
+    height:18rem;
 }
 
     .div_img{
-        width:20.5rem;
-        height:20.7rem;
+        width:18.5rem;
+        height:18.7rem;
     }
 
     .flex_grid{
@@ -390,13 +390,13 @@
 }
 
 .margin-all{
-        margin-top:5rem;
+        margin-top:.5rem;
         text-align: center;
         width: 100%;
     }
     .margin-t-image {
         margin-top:0rem;
-        margin-left:60px;
+        margin-left:30px;
         width: 100%;
     }
 }
