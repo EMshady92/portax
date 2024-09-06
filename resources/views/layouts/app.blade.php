@@ -484,7 +484,7 @@
 }
 
 .margin-all{
-        margin-top:5rem;
+        margin-top:.5rem;
         text-align: center;
         width: 100%;
     }
@@ -531,7 +531,7 @@
 }
 
 .margin-all{
-        margin-top:5rem;
+        margin-top:.5rem;
         text-align: center;
         width: 100%;
     }
