@@ -413,8 +413,7 @@
         margin-top:75px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
         border-radius: 10%;
-        padding-top: :20px;
-        padding-bottom: :20px;
+
     }
 
 
@@ -466,6 +465,7 @@
     .flex_{
         display:flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .tarjet_style{
