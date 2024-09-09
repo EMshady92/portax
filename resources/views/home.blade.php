@@ -7,7 +7,7 @@
         @include('top-bar')
     </div>
 
-    <div style="height:80%;" class="w-full overflow-y-auto overflow-x-hidden fixed">
+    <div style="height:100%;" class="w-full overflow-y-auto overflow-x-hidden fixed">
         @include('main')
     </div>
 

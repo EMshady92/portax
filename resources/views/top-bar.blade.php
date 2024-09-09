@@ -1,8 +1,8 @@
 
 <div class="w-full grid ">
-    <div class=" bg-[#011629] w-[100%] rounded-lg py-1 flex shadow-xl">
+    <div class=" bg-[#011629] w-[100%] py-3 flex shadow-xl">
         <div class="w-[20%]">
-            <img class="img-widt   shadow-lg mx-2" src="{{asset('images/logo_port.png')}}">
+            <img class="img-widt shadow-lg mx-2" src="{{asset('images/logo_port.png')}}">
 
         </div>
 
