@@ -413,7 +413,8 @@
         margin-top:75px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
         border-radius: 10%;
-        background-color: #011629;
+        padding-top: :20px;
+        padding-bottom: :20px;
     }
 
 
@@ -472,7 +473,6 @@
         margin-top:75px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
         border-radius: 10%;
-        background-color: #011629;
     }
 
 
@@ -533,7 +533,6 @@
         margin-top:75px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
         border-radius: 10%;
-        background-color: #011629;
     }
 
 
@@ -594,7 +593,6 @@
     margin-top:75px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
     border-radius: 10%;
-    background-color: #011629;
 }
 
 
@@ -655,7 +653,6 @@ gap: 10px;
     margin-top:75px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
     border-radius: 10%;
-    background-color: #011629;
 }
 
 
@@ -716,7 +713,6 @@ gap: 10px;
     margin-top:75px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
     border-radius: 10%;
-    background-color: #011629;
 }
 
 
@@ -777,7 +773,6 @@ gap: 10px;
     margin-top:75px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
     border-radius: 10%;
-    background-color: #011629;
 }
 
 
@@ -838,7 +833,7 @@ gap: 10px;
     margin-top:75px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
     border-radius: 10%;
-    background-color: #011629;
+
 }
 
 
