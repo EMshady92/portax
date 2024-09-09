@@ -5,7 +5,7 @@
 
 
 
-    <div style="height:120vh;" class="w-dvh  border-b-2 boder-[#67788a] flex ">
+    <div style="height:120vh;" class="w-dvh  border-b-2 boder-[#67788a] flex bg-[#091a28]">
         @include('sections.my_projects')
     </div>
 
