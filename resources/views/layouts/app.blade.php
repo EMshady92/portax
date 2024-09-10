@@ -280,7 +280,7 @@
 
 
 
-                    <main class="h-full">
+                    <main class="h-full ">
 
                             @yield('content')
 
@@ -411,7 +411,7 @@
     .tarjet_style{
         height: 70%;
         margin-top:75px;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
         border-radius: 10%;
 
     }
@@ -471,7 +471,7 @@
     .tarjet_style{
         height: 70%;
         margin-top:75px;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
         border-radius: 10%;
     }
 
@@ -531,7 +531,7 @@
     .tarjet_style{
         height: 70%;
         margin-top:75px;
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
         border-radius: 10%;
     }
 
@@ -559,7 +559,7 @@
 }
 
 .img-widt{
-    width:30%;
+    width:50%;
 }
 
 .title_1{
@@ -591,7 +591,7 @@
 .tarjet_style{
     height: 70%;
     margin-top:75px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
     border-radius: 10%;
 }
 
@@ -619,7 +619,7 @@ gap: 10px;
 }
 
 .img-widt{
-    width:30%;
+    width:50%;
 }
 
 .title_1{
@@ -651,7 +651,7 @@ gap: 10px;
 .tarjet_style{
     height: 70%;
     margin-top:75px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
     border-radius: 10%;
 }
 
@@ -679,7 +679,7 @@ gap: 10px;
 }
 
 .img-widt{
-    width:30%;
+    width:50%;
 }
 
 .title_1{
@@ -711,7 +711,7 @@ gap: 10px;
 .tarjet_style{
     height: 70%;
     margin-top:75px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
     border-radius: 10%;
 }
 
@@ -739,7 +739,7 @@ gap: 10px;
 }
 
 .img-widt{
-    width:30%;
+    width:80%;
 }
 
 .title_1{
@@ -771,7 +771,7 @@ gap: 10px;
 .tarjet_style{
     height: 70%;
     margin-top:75px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
     border-radius: 10%;
 }
 
@@ -799,7 +799,7 @@ gap: 10px;
 }
 
 .img-widt{
-    width:30%;
+     width:80%;
 }
 
 .title_1{
@@ -831,7 +831,7 @@ gap: 10px;
 .tarjet_style{
     height: 55%;
     margin-top:75px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+
     border-radius: 10%;
     margin-bottom: 50px;
 }
