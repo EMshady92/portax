@@ -853,6 +853,68 @@ gap: 10px;
 }
 }
 
+@media only screen and (max-width: 480px) {
+
+.ancho_tarjeta{
+    width: 90%;
+}
+
+.img-widt{
+     width:100%;
+     margin-top:10px;
+}
+
+.title_1{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.title_2 {
+    font-size: .8rem;
+    line-height: 2.5rem;
+}
+
+.image_w_h{
+    width:18.5rem;
+    height:18.5rem;
+    box-sizing: border-box;
+}
+
+.div_img{
+    width:19rem;
+    height:19rem;
+}
+
+.flex_{
+    display:flex;
+    justify-content: center;
+}
+
+.tarjet_style{
+    height: 55%;
+    margin-top:75px;
+
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+
+.margin-all{
+    margin-top:20rem;
+}
+
+.outer {
+width:100%;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.margin-t-image {
+    margin-top:6rem;
+}
+}
+
  .rounded_img{
      border-radius: 100%;
     -moz-border-radius: 100%;
