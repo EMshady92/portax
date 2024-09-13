@@ -12,28 +12,28 @@ transition: opacity 0s 1s;
     <!-- Carousel items -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img  style="width:100%;height:500px;" src="{{asset('images/petc_imgs/portada_petc.png')}}" alt="">
+        <img   src="{{asset('images/petc_imgs/portada_petc.png')}}" alt="">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/quienes_somos.png')}}" alt="Quienes somos">
+        <img   src="{{asset('images/petc_imgs/quienes_somos.png')}}" alt="Quienes somos">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/modulos.png')}}" alt="Modulos">
+        <img   src="{{asset('images/petc_imgs/modulos.png')}}" alt="Modulos">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/empleados.png')}}" alt="Empleados">
+        <img   src="{{asset('images/petc_imgs/empleados.png')}}" alt="Empleados">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/listas_asistencias.png')}}" alt="Listas Asistencia">
+        <img   src="{{asset('images/petc_imgs/listas_asistencias.png')}}" alt="Listas Asistencia">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/consulta_pagos.png')}}" alt="Consulta Pagos">
+        <img   src="{{asset('images/petc_imgs/consulta_pagos.png')}}" alt="Consulta Pagos">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/nomina.png')}}" alt="Nomina">
+        <img   src="{{asset('images/petc_imgs/nomina.png')}}" alt="Nomina">
       </div>
       <div class="carousel-item">
-        <img style="width:100%;height:500px;"  src="{{asset('images/petc_imgs/reintegros.png')}}" alt="Reintegross">
+        <img   src="{{asset('images/petc_imgs/reintegros.png')}}" alt="Reintegross">
       </div>
 
 
