@@ -46,6 +46,7 @@
     <div class="outer">
     <i href="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159" title="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159/" class="fab fa-linkedin text-5xl cursor-pointer redes"></i>
     <i href="https://github.com/EMshady92" title="https://github.com/EMshady92" class="fa-brands fa-github text-5xl cursor-pointer redes"></i>
+    <i class="fa-solid fa-file-contract text-5xl cursor-pointer redes"></i>
     </div>
 </div>
 <style>

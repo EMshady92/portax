@@ -8,7 +8,10 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Daniel Web Developer</title>
-
+    {{-- Glider --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.7/glider.min.js"
+        integrity="sha512-tHimK/KZS+o34ZpPNOvb/bTHZb6ocWFXCtdGqAlWYUcz+BGHbNbHMKvEHUyFxgJhQcEO87yg5YqaJvyQgAEEtA=="
+        crossorigin="anonymous"></script>
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
@@ -171,9 +174,18 @@
 
 .covera.parallaxas_petc {
 
-  background-image: url('{{ asset('images/petc_imgs/portada_petc.png') }}');
+  background-image: url('{{ asset('images/petc_imgs/portada_petc.png') }}'); /* esto se ira a un modal */
   position: relative;
   margin-top: -25px;
+
+}
+
+.covera.parallaxasx_petc {
+
+background-image: url('{{ asset('images/petc_imgs/quienes_somos.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+background-size: 100%;
 }
 
 .covera P {
@@ -217,13 +229,22 @@
 
 .covera P span {
     font-family: 'ABeeZee', sans-serif;
+  display: none;
+  font-size: 0.5em;
+  font-weight: 200;
+  margin-top: 6px;
+  opacity: 0;
+}
+
+.coverax P span {
+    font-family: 'ABeeZee', sans-serif;
+    transition: all 2s linear;
   display: block;
   font-size: 0.5em;
   font-weight: 200;
   margin-top: 6px;
-
+  opacity: 1;
 }
-
 
 
 .redes{
@@ -673,6 +694,10 @@ p {
     .margin-t-image {
         margin-top:6rem;
     }
+
+    .proyecs_sizes{
+        width:50%
+    }
 }
 
 @media only screen and (max-width: 1875px) {
@@ -852,6 +877,11 @@ gap: 10px;
 .margin-t-image {
     margin-top:6rem;
 }
+
+
+.proyecs_sizes{
+        width:70%
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -912,6 +942,10 @@ gap: 10px;
 .margin-t-image {
     margin-top:6rem;
 }
+
+.proyecs_sizes{
+        width:80%
+    }
 }
 
 @media only screen and (max-width: 810px) {
@@ -972,6 +1006,10 @@ gap: 10px;
 .margin-t-image {
     margin-top:6rem;
 }
+
+.proyecs_sizes{
+        width:90%
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1032,6 +1070,10 @@ gap: 10px;
 .margin-t-image {
     margin-top:6rem;
 }
+
+.proyecs_sizes{
+        width:100%
+    }
 }
 
 @media only screen and (max-width: 480px) {
