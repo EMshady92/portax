@@ -4,11 +4,10 @@
         <div  class="w-full">
             <section class=""> <!-- inicio efecto parallax  -->
                 <div class="covera parallaxas_petc"  id="info_porta_petc" name="info_porta_petc">
-                    <p class="title_porject font-roboto">
+                    <p class=" font-roboto">
                     Programa de Escuelas de Tiempo Completo (PETC)
-                    <span  class="title_porject font-roboto">{{__('index.pect_port_summary')}}</span>
+                    <span  class=" font-roboto">{{__('index.pect_port_summary')}}</span>
                     </p>
-
                 </div>
             </section>
         </div>

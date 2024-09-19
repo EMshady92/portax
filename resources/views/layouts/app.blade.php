@@ -188,63 +188,7 @@ margin-top: -25px;
 background-size: 100%;
 }
 
-.covera P {
 
-    font-family: 'ABeeZee', sans-serif;
-  letter-spacing: 5px;
-  padding: 10px 15px;
-  font-weight: bold;
-  /*fuente en negritas*/
-  text-transform: uppercase;
-  /*mayusculas*/
-  font-size: 2em;
-  /*tamaño de la fuente*/
-  position: absolute;
-  /**/
-  width: auto;
-  /*ancho automatico*/
-  bottom: 0;
-  /**/
-  left: 1px0;
-  /*alienado a la izq*/
-  z-index: 10;
-  /*para que aparezca arriba de la imagen*/
-  text-align: center;
-  /**/
-  color:#091a28;
-  /*para opaquisidad*/
-  background-color: #67788acc;
-  /*color oscuro con 0.8 de transparencia*/
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  display: block;
-  /*para que aparezca en una linea o renglon*/
-  width: 100%;
-  /*para que abarque toda la imagen*/
-  right: 0px;
-  text-align: right;
-
-
-}
-
-.covera P span {
-    font-family: 'ABeeZee', sans-serif;
-  display: none;
-  font-size: 0.5em;
-  font-weight: 200;
-  margin-top: 6px;
-  opacity: 0;
-}
-
-.coverax P span {
-    font-family: 'ABeeZee', sans-serif;
-    transition: all 2s linear;
-  display: block;
-  font-size: 0.5em;
-  font-weight: 200;
-  margin-top: 6px;
-  opacity: 1;
-}
 
 
 .redes{
@@ -698,6 +642,64 @@ p {
     .proyecs_sizes{
         width:50%
     }
+
+    .covera P {
+
+font-family: 'ABeeZee', sans-serif;
+letter-spacing: 5px;
+padding: 10px 15px;
+font-weight: bold;
+/*fuente en negritas*/
+text-transform: uppercase;
+/*mayusculas*/
+font-size: 2em;
+/*tamaño de la fuente*/
+position: absolute;
+/**/
+width: auto;
+/*ancho automatico*/
+bottom: 0;
+/**/
+left: 1px0;
+/*alienado a la izq*/
+z-index: 10;
+/*para que aparezca arriba de la imagen*/
+text-align: center;
+/**/
+color:#091a28;
+/*para opaquisidad*/
+background-color: #67788acc;
+/*color oscuro con 0.8 de transparencia*/
+-webkit-box-sizing: border-box;
+      box-sizing: border-box;
+display: block;
+/*para que aparezca en una linea o renglon*/
+width: 100%;
+/*para que abarque toda la imagen*/
+right: 0px;
+text-align: right;
+
+
+}
+
+.covera P span {
+font-family: 'ABeeZee', sans-serif;
+display: none;
+font-size: 0.5em;
+font-weight: 200;
+margin-top: 6px;
+opacity: 0;
+}
+
+.coverax P span {
+font-family: 'ABeeZee', sans-serif;
+transition: all 2s linear;
+display: block;
+font-size: 0.5em;
+font-weight: 200;
+margin-top: 6px;
+opacity: 1;
+}
 }
 
 @media only screen and (max-width: 1875px) {
@@ -757,6 +759,66 @@ p {
     .margin-t-image {
         margin-top:6rem;
     }
+
+    .covera P {
+
+font-family: 'ABeeZee', sans-serif;
+letter-spacing: 5px;
+padding: 10px 15px;
+font-weight: bold;
+/*fuente en negritas*/
+text-transform: uppercase;
+/*mayusculas*/
+font-size: 2em;
+/*tamaño de la fuente*/
+position: absolute;
+/**/
+width: auto;
+/*ancho automatico*/
+bottom: 0;
+/**/
+left: 1px0;
+/*alienado a la izq*/
+z-index: 10;
+/*para que aparezca arriba de la imagen*/
+text-align: center;
+/**/
+color:#091a28;
+/*para opaquisidad*/
+background-color: #67788acc;
+/*color oscuro con 0.8 de transparencia*/
+-webkit-box-sizing: border-box;
+      box-sizing: border-box;
+display: block;
+/*para que aparezca en una linea o renglon*/
+width: 100%;
+/*para que abarque toda la imagen*/
+right: 0px;
+text-align: right;
+
+
+}
+
+.covera P span {
+font-family: 'ABeeZee', sans-serif;
+display: none;
+font-size: 0.5em;
+font-weight: 200;
+margin-top: 6px;
+opacity: 0;
+}
+
+.coverax P span {
+font-family: 'ABeeZee', sans-serif;
+transition: all 2s linear;
+display: block;
+font-size: 0.5em;
+font-weight: 200;
+margin-top: 6px;
+opacity: 1;
+}
+
+
 }
 
 @media only screen and (max-width: 1540px) {
@@ -816,6 +878,17 @@ p {
 
     .margin-t-image {
         margin-top:6rem;
+    }
+
+        .covera P {
+        font-size: 2em;
+    }
+    .covera P span {
+         font-size: 0.5em;
+    }
+
+    .coverax P span {
+    font-size: 0.5em;
     }
 }
 
@@ -881,6 +954,17 @@ gap: 10px;
 
 .proyecs_sizes{
         width:70%
+    }
+
+    .covera P {
+        font-size: 1.5em;
+    }
+    .covera P span {
+         font-size: 0.45em;
+    }
+
+    .coverax P span {
+    font-size: 0.45em;
     }
 }
 
@@ -1010,6 +1094,21 @@ gap: 10px;
 .proyecs_sizes{
         width:80%
     }
+
+    .proyecs_sizes{
+        width:70%
+    }
+
+    .covera P {
+        font-size: 1.3em;
+    }
+    .covera P span {
+         font-size: 0.45em;
+    }
+
+    .coverax P span {
+    font-size: 0.45em;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1073,6 +1172,17 @@ gap: 10px;
 
 .proyecs_sizes{
         width:80%
+    }
+
+    .covera P {
+        font-size: 1.1em;
+    }
+    .covera P span {
+         font-size: 0.45em;
+    }
+
+    .coverax P span {
+    font-size: 0.45em;
     }
 }
 
@@ -1141,6 +1251,7 @@ gap: 10px;
     }
 }
 
+
 @media only screen and (max-width: 480px) {
 
 .ancho_tarjeta{
@@ -1201,6 +1312,17 @@ gap: 10px;
 .margin-t-image {
     margin-top:6rem;
 }
+
+.covera P {
+        font-size: 1em;
+    }
+    .covera P span {
+         font-size: 0.35em;
+    }
+
+    .coverax P span {
+    font-size: 0.35em;
+    }
 }
 
  .rounded_img{
@@ -1287,6 +1409,7 @@ background: #091a28;
   transition: 0.2s all;
   border-radius: 40px 40px 40px 40px;
 }
+
     </style>
 </body>
 </html>
