@@ -28,7 +28,7 @@ return [
     'actual' => 'Actual',
     'cerrar' => 'Cerrar',
     'acerca_de' => 'Acerca de',
-    'sitzac_summary' => 'With the aim of providing remote access to administrative justice and thus offering better service, the TJAEZ makes this technological tool available to you, with which users can access the following services:',
+    'sitzac_summary' => 'Con el objetivo de brindar acceso a la justicia administrativa de manera remota y ofrecer así un mejor servicio, el TJAEZ pone a su disposición esta herramienta tecnológica con la cual los usuarios podrán disponer de los siguientes servicios:',
     'promocion_juicio_linea' => 'Promoción de Juicio en Línea',
     'notificacion_boletin' => 'Notificación mediante Boletín Electrónico',
     'presentacion_prom' => 'Presentación de promociones mediante Buzón Virtual',

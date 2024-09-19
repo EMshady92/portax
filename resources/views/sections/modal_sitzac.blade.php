@@ -1,4 +1,4 @@
-<div id="modal_sitzac" name="modal_sitzac" class="fixed z-10 inset-0 overflow-y-auto hidden">
+{{-- <div id="modal_sitzac" name="modal_sitzac" class="fixed z-10 inset-0 overflow-y-auto hidden">
     <style>
 datalist {
   position: absolute;
@@ -53,5 +53,70 @@ datalist.option {
         <script>
 
         </script>
-      </div>
+      </div> --}}
+
+
+ <div id="modal_sitzac" name="modal_sitzac" onclick="show_info('info_porta_sitzac','parallaxasx_sitzac')"   class="bg-[#172c3d] rounded overflow-hidden  border-[3px] border-[#67788a] cursor-pointer hover:border-[#ec1c24] proyecs_sizes">
+    <div  class="w-full">
+        <section class=""> <!-- inicio efecto parallax  -->
+            <div class="covera parallaxas_sitzac"  id="info_porta_sitzac" name="info_porta_sitzac">
+                <p class=" font-roboto">
+                    SIT-ZAC
+                <span  class="text-left  font-roboto">
+                {{__('index.sitzac_summary')}}
+
+                </span>
+                <span  class="text-left font-roboto bg-[#ff000044]">
+
+                    + {{__('index.promocion_juicio_linea')}}
+                    <br class="">
+                    + {{__('index.notificacion_boletin')}}
+                    <br class="">
+                    + {{__('index.presentacion_prom')}}
+                    <br class="">
+                    + {{__('index.agendar_citas')}}
+                    <br class="">
+                    + {{__('index.efirma')}}
+                </span>
+                </p>
+
+
+            </div>
+        </section>
+    </div>
+
+
+    <div class="w-full bg-[#091a28] flex justify-end">
+        <div class="px-6 pt-4 pb-2 flex gap-4 w-full justify-center">
+            <div>
+                <img class="w-10 h-10" title="Laravel" src="{{asset('images/laravel.png')}}">
+            </div>
+
+            <div>
+                <img class="w-10 h-10" title="HTML" src="{{asset('images/html.png')}}">
+            </div>
+
+            <div>
+                <img class="w-10 h-10" title="CSS" src="{{asset('images/css.png')}}">
+            </div>
+
+            <div>
+                <img class="w-10 h-10" title="MySQL" src="{{asset('images/mysql.png')}}">
+            </div>
+
+            <div>
+                <img class="w-10 h-10" title="JavaScript" src="{{asset('images/JS.png')}}">
+            </div>
+
+            <div>
+                <img class="w-10 h-10" title="Ajax" src="{{asset('images/ajax.png')}}">
+            </div>
+
+            <div>
+                <img class="w-10 h-10" title="Github" src="{{asset('images/gitlogo.png')}}">
+            </div>
+        </div>
+    </div>
+</div>
+
 

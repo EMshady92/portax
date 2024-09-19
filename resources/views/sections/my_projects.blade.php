@@ -1,13 +1,13 @@
 
-<div class="grid w-full h-[100%] bg-fixed bg-center bg-cover custom-img">
+<div class="grid w-full h-screen bg-fixed bg-center bg-cover custom-img">
     <div class="grid w-full justify-items-center place-content-center my-3">
         <h1 class="text-5xl text-[#ec1c24] font-roboto font-bold text-border">{{__('index.my_proyects')}}</h1>
     </div>
-    <div class="grid justify-items-center gap-y-5 gap-x-3 w-full   mb-4">
+    <div class="grid justify-items-center columns_projets gap-y-5 gap-x-3 w-full  mb-4 mx-1">
+        @include('sections.modal_hvacopcost')
+        @include('sections.modal_sitzac')
         @include('sections.modal_petc')
-
-
-
+        @include('sections.modal_inventory')
 
 {{--         <div class="wrap animate pop">
             <div class="overlay">
@@ -45,14 +45,13 @@ $('#close').click(function() {
   },200);
 });
 
-function show_info(id_hide){
+function show_info(id_hide,css_class){
     $('#'+id_hide).toggleClass("coverax");
-    $('#'+id_hide).toggleClass("parallaxasx_petc");
+    $('#'+id_hide).toggleClass(css_class);
 }
 
 function hide_info(id_show,id_hide){
     $('#'+id_show).removeClass('hidden');
-    $('#'+id_hide).addClass('hidden');
 }
 
 $(document).ready(function(){

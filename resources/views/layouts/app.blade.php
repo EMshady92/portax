@@ -185,8 +185,66 @@
 background-image: url('{{ asset('images/petc_imgs/quienes_somos.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
-background-size: 100%;
+background-repeat: no-repeat;
+ background-size: cover;
 }
+
+.covera.parallaxas_hvacopcost {
+
+background-image: url('{{ asset('images/hvacopcost_imgs/portada_hvac.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+
+}
+
+.covera.parallaxasx_hvacopcost {
+
+background-image: url('{{ asset('images/hvacopcost_imgs/new_p.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.covera.parallaxas_sitzac {
+
+background-image: url('{{ asset('images/sitzac_imgs/portada_sitzac.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+
+}
+
+.covera.parallaxasx_sitzac {
+
+background-image: url('{{ asset('images/sitzac_imgs/welcome_sitzac.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.covera.parallaxas_inventory {
+
+background-image: url('{{ asset('images/inventory_imgs/portada_inventory.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+
+}
+
+.covera.parallaxasx_inventory {
+
+background-image: url('{{ asset('images/inventory_imgs/almacenes.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
+
+
+
 
 
 
@@ -640,7 +698,11 @@ p {
     }
 
     .proyecs_sizes{
-        width:50%
+        width:80%
+    }
+
+    .columns_projets{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .covera P {
@@ -953,7 +1015,7 @@ gap: 10px;
 
 
 .proyecs_sizes{
-        width:70%
+        width:90%
     }
 
     .covera P {
@@ -1028,7 +1090,8 @@ gap: 10px;
 }
 
 .proyecs_sizes{
-        width:80%
+        width:100%
+
     }
 }
 
@@ -1092,11 +1155,8 @@ gap: 10px;
 }
 
 .proyecs_sizes{
-        width:80%
-    }
+        width:90%;
 
-    .proyecs_sizes{
-        width:70%
     }
 
     .covera P {
@@ -1108,6 +1168,10 @@ gap: 10px;
 
     .coverax P span {
     font-size: 0.45em;
+    }
+
+    .columns_projets{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
 
@@ -1317,11 +1381,11 @@ gap: 10px;
         font-size: 1em;
     }
     .covera P span {
-         font-size: 0.35em;
+         font-size: 0.45em;
     }
 
     .coverax P span {
-    font-size: 0.35em;
+    font-size: 0.45em;
     }
 }
 
