@@ -1008,7 +1008,7 @@ gap: 10px;
 }
 
 .proyecs_sizes{
-        width:90%
+        width:80%
     }
 }
 
@@ -1072,7 +1072,7 @@ gap: 10px;
 }
 
 .proyecs_sizes{
-        width:100%
+        width:80%
     }
 }
 
@@ -1135,6 +1135,10 @@ gap: 10px;
 .margin-t-image {
     margin-top:6rem;
 }
+
+.proyecs_sizes{
+        width:90%
+    }
 }
 
 @media only screen and (max-width: 480px) {

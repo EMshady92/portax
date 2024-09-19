@@ -3,7 +3,7 @@
     <div class="grid w-full justify-items-center place-content-center my-3">
         <h1 class="text-5xl text-[#ec1c24] font-roboto font-bold text-border">{{__('index.my_proyects')}}</h1>
     </div>
-    <div class="grid justify-items-center gap-y-5 gap-x-3 w-full mx-3  mb-4">
+    <div class="grid justify-items-center gap-y-5 gap-x-3 w-full   mb-4">
         @include('sections.modal_petc')
 
 
