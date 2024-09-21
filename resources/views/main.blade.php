@@ -5,8 +5,9 @@
 
 
 
-    <div style="height:100%;" class="w-dvh  border-b-2 boder-[#67788a] flex bg-[#091a28]">
+    <div id="my_proyects" name="my_proyects" style="height:100%;" class="w-dvh  border-b-2 boder-[#67788a] flex bg-[#091a28]">
         @include('sections.my_projects')
+
     </div>
 
 {{--     <div class="h-[1/4] flex items-center justify-center mb-[15rem] bg-fixed bg-center bg-cover custom-img">

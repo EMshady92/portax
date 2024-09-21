@@ -5,10 +5,9 @@
     </div>
     <div class="grid  gap-x-3 w-full mx-3 h-[80%] gap-y-3">
 
-        <div class="flex w-full">
-            <div class="w-1/3">
-            </div>
-            <div class="w-1/3 flex  gap-x-3">
+        <div class="flex w-full justify-center">
+
+            <div class="w-full flex justify-center  gap-x-3">
                 <p class="text-4xl text-white font-roboto font-bold">
                      {{__('index.lenguaje')}}
                 </p>
@@ -23,13 +22,11 @@
 
             </div>
 
-            <div class="w-1/3">
-            </div>
+
         </div>
-        <div class="flex w-full">
-            <div class="w-1/3">
-            </div>
-            <div class="w-1/3 flex  gap-x-3">
+        <div class="flex w-full justify-center">
+
+            <div class="w-full flex justify-center  gap-x-3">
                 <p class="text-4xl text-white font-roboto font-bold">
                     BackEnd
                 </p>
@@ -45,14 +42,12 @@
 
             </div>
 
-            <div class="w-1/3">
-            </div>
+
         </div>
 
-        <div class="flex w-full">
-            <div class="w-1/3">
-            </div>
-            <div class="w-1/3 flex  gap-x-3">
+
+        <div class="flex w-full justify-center">
+            <div class="w-full flex justify-center  gap-x-3">
                 <p class="text-4xl text-white font-roboto font-bold">
                     FrontEnd
                 </p>
@@ -84,14 +79,11 @@
 
             </div>
 
-            <div class="w-1/3">
-            </div>
+
         </div>
 
-        <div class="flex w-full">
-            <div class="w-1/3">
-            </div>
-            <div class="w-1/3 flex  gap-x-3">
+        <div class="flex w-full justify-center">
+            <div class="w-full flex justify-center  gap-x-3">
                 <p class="text-4xl text-white font-roboto font-bold">
                     {{__('index.db')}}
                 </p>
@@ -102,17 +94,12 @@
                 </div>
 
             </div>
-
-            <div class="w-1/3">
-            </div>
         </div>
 
-        <div class="flex w-full">
-            <div class="w-1/3">
-            </div>
-            <div class="w-1/3 flex  gap-x-3">
+        <div class="flex w-full justify-center">
+            <div class="w-full flex justify-center  gap-x-3">
                 <p class="text-4xl text-white font-roboto font-bold">
-                   Extras
+                    Extras
                 </p>
                 <div class="flex gap-x-3">
                     <div>
@@ -120,9 +107,6 @@
                     </div>
                 </div>
 
-            </div>
-
-            <div class="w-1/3">
             </div>
         </div>
         <br>
