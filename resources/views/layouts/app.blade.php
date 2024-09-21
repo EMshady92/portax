@@ -819,6 +819,11 @@ opacity: 1;
     height: 95%;
 }
 
+.img_tecno{
+    height:2.5rem;
+    width:2.5rem;
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1517,6 +1522,11 @@ gap: 10px;
 
     .coverax P span {
     font-size: 0.45em;
+    }
+
+    .img_tecno{
+        height:1.8rem;
+        width:1.8rem;
     }
 }
 

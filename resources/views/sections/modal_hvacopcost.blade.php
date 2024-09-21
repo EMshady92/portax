@@ -19,31 +19,31 @@
     <div class="w-full bg-[#091a28] flex justify-end">
         <div class="mt-2 flex gap-4 w-full justify-center">
             <div>
-                <img class="w-10 h-10" title="Laravel" src="{{asset('images/laravel.png')}}">
+                <img class="img_tecno" title="Laravel" src="{{asset('images/laravel.png')}}">
             </div>
 
             <div>
-                <img class="w-10 h-10" title="HTML" src="{{asset('images/html.png')}}">
+                <img class="img_tecno" title="HTML" src="{{asset('images/html.png')}}">
             </div>
 
             <div>
-                <img class="w-10 h-10" title="CSS" src="{{asset('images/css.png')}}">
+                <img class="img_tecno" title="CSS" src="{{asset('images/css.png')}}">
             </div>
 
             <div>
-                <img class="w-10 h-10" title="MySQL" src="{{asset('images/mysql.png')}}">
+                <img class="img_tecno" title="MySQL" src="{{asset('images/mysql.png')}}">
             </div>
 
             <div>
-                <img class="w-10 h-10" title="JavaScript" src="{{asset('images/JS.png')}}">
+                <img class="img_tecno" title="JavaScript" src="{{asset('images/JS.png')}}">
             </div>
 
             <div>
-                <img class="w-10 h-10" title="Ajax" src="{{asset('images/ajax.png')}}">
+                <img class="img_tecno" title="Ajax" src="{{asset('images/ajax.png')}}">
             </div>
 
             <div>
-                <img class="w-10 h-10" title="Github" src="{{asset('images/gitlogo.png')}}">
+                <img class="img_tecno" title="Github" src="{{asset('images/gitlogo.png')}}">
             </div>
         </div>
     </div>
