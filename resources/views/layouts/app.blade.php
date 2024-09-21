@@ -824,6 +824,11 @@ opacity: 1;
     width:2.5rem;
 }
 
+.my_projectys_size{
+    font-size: 3rem /* 48px */;
+    line-height: 1;
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1528,6 +1533,11 @@ gap: 10px;
         height:1.8rem;
         width:1.8rem;
     }
+
+    .my_projectys_size{
+    font-size: 3.5rem /* 48px */;
+    line-height: 1;
+}
 }
 
  .rounded_img{

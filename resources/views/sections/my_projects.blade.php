@@ -1,7 +1,7 @@
 
 <div class="grid w-full h-screen bg-fixed bg-center bg-cover custom-img">
     <div class="grid w-full justify-items-center place-content-center my-3">
-        <h1 class="text-5xl text-[#ec1c24] font-roboto font-bold text-border">{{__('index.my_proyects')}}</h1>
+        <h1 class="my_projectys_size text-[#ec1c24] font-roboto font-bold text-border">{{__('index.my_proyects')}}</h1>
     </div>
     <div class="grid justify-items-center columns_projets gap-y-5 gap-x-3 w-full  mb-4 mx-1">
         @include('sections.modal_hvacopcost')
