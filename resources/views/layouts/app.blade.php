@@ -169,6 +169,8 @@
   background-image: url('{{ asset('images/petc_imgs/portada_petc.png') }}');
   position: relative;
   margin-top: -25px;
+  background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .covera.parallaxas_petc {
@@ -176,7 +178,8 @@
   background-image: url('{{ asset('images/petc_imgs/portada_petc.png') }}'); /* esto se ira a un modal */
   position: relative;
   margin-top: -25px;
-
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .covera.parallaxasx_petc {
@@ -193,7 +196,8 @@ background-repeat: no-repeat;
 background-image: url('{{ asset('images/hvacopcost_imgs/portada_hvac.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
-
+background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .covera.parallaxasx_hvacopcost {
@@ -210,7 +214,8 @@ background-repeat: no-repeat;
 background-image: url('{{ asset('images/sitzac_imgs/portada_sitzac.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
-
+background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .covera.parallaxasx_sitzac {
@@ -227,7 +232,8 @@ background-repeat: no-repeat;
 background-image: url('{{ asset('images/inventory_imgs/portada_inventory.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
-
+background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .covera.parallaxasx_inventory {
@@ -240,8 +246,23 @@ background-repeat: no-repeat;
 }
 
 
+.covera.parallaxas_hmop {
 
+background-image: url('{{ asset('images/hmop_imgs/ajax.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+background-repeat: no-repeat;
+ background-size: cover;
+}
 
+.covera.parallaxasx_hmop {
+
+background-image: url('{{ asset('images/hmop_imgs/table.png') }}'); /* esto se ira a un modal */
+position: relative;
+margin-top: -25px;
+background-repeat: no-repeat;
+ background-size: cover;
+}
 
 
 
@@ -791,6 +812,13 @@ opacity: 1;
     height: 95%;
 }
 
+.covera.parallaxas_hmop{
+    height: 95%;
+}
+.covera.parallaxasx_hmop{
+    height: 95%;
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -938,6 +966,13 @@ opacity: 1;
     height: 95%;
 }
 
+.covera.parallaxas_hmop{
+    height: 95%;
+}
+.covera.parallaxasx_hmop{
+    height: 95%;
+}
+
 }
 
 @media only screen and (max-width: 1540px) {
@@ -1039,6 +1074,13 @@ opacity: 1;
         height: 280px;
     }
     .covera.parallaxasx_inventory{
+        height: 280px;
+    }
+
+    .covera.parallaxas_hmop{
+        height: 280px;
+    }
+    .covera.parallaxasx_hmop{
         height: 280px;
     }
 }

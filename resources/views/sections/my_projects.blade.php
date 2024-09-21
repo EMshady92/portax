@@ -7,6 +7,7 @@
         @include('sections.modal_hvacopcost')
         @include('sections.modal_sitzac')
         @include('sections.modal_petc')
+        @include('sections.modal_hmop')
         @include('sections.modal_inventory')
 
 {{--         <div class="wrap animate pop">
