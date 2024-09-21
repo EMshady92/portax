@@ -7,6 +7,8 @@
             SIT-ZAC
         <span  class="text-left font-roboto">
             {{__('index.sitzac_summary')}}
+            <br>
+            {{__('index.hvacopcost_summary2')}}
         </span>
         </p>
 
