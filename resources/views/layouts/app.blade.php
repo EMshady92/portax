@@ -1535,7 +1535,7 @@ gap: 10px;
     }
 
     .my_projectys_size{
-    font-size: 3.2rem /* 48px */;
+    font-size: 3.05rem /* 48px */;
     line-height: 1;
 }
 }
