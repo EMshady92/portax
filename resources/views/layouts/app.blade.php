@@ -156,12 +156,11 @@
 .covera {
   /*efecto parallax*/
   width: 100%;
-  height: 100%;
+  height: 60%;
   padding-bottom: 0px;
   position: absolute;
   left: 0;
   right: 0;
-  min-height: 500px;
   background-repeat: no-repeat;
 }
 
@@ -698,7 +697,8 @@ p {
     }
 
     .proyecs_sizes{
-        width:80%
+        width:80%;
+        height:500px;
     }
 
     .columns_projets{
@@ -762,6 +762,35 @@ font-weight: 200;
 margin-top: 6px;
 opacity: 1;
 }
+
+.covera.parallaxas_hvacopcost {
+    height: 95%;
+}
+.covera.parallaxasx_hvacopcost {
+    height: 95%;
+}
+
+.covera.parallaxas_sitzac{
+    height: 95%;
+}
+.covera.parallaxasx_sitzac{
+    height: 95%;
+}
+
+.covera.parallaxas_petc{
+    height: 95%;
+}
+.covera.parallaxasx_petc{
+    height: 95%;
+}
+
+.covera.parallaxas_inventory{
+    height: 95%;
+}
+.covera.parallaxasx_inventory{
+    height: 95%;
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -881,6 +910,34 @@ opacity: 1;
 }
 
 
+.covera.parallaxas_hvacopcost {
+    height: 95%;
+}
+.covera.parallaxasx_hvacopcost {
+    height: 95%;
+}
+
+.covera.parallaxas_sitzac{
+    height: 95%;
+}
+.covera.parallaxasx_sitzac{
+    height: 95%;
+}
+
+.covera.parallaxas_petc{
+    height: 95%;
+}
+.covera.parallaxasx_petc{
+    height: 95%;
+}
+
+.covera.parallaxas_inventory{
+    height: 95%;
+}
+.covera.parallaxasx_inventory{
+    height: 95%;
+}
+
 }
 
 @media only screen and (max-width: 1540px) {
@@ -951,6 +1008,38 @@ opacity: 1;
 
     .coverax P span {
     font-size: 0.5em;
+    }
+
+    .proyecs_sizes{
+        height:100%;
+    }
+
+    .covera.parallaxas_hvacopcost {
+        height:280px;
+    }
+    .covera.parallaxasx_hvacopcost {
+        height: 280px;
+    }
+
+    .covera.parallaxas_sitzac{
+        height: 280px;
+    }
+    .covera.parallaxasx_sitzac{
+        height: 280px;
+    }
+
+    .covera.parallaxas_petc{
+        height: 280px;
+    }
+    .covera.parallaxasx_petc{
+        height: 280px;
+    }
+
+    .covera.parallaxas_inventory{
+        height: 280px;
+    }
+    .covera.parallaxasx_inventory{
+        height: 280px;
     }
 }
 
