@@ -14,10 +14,10 @@
                 </p>
                 <div class="flex gap-x-3">
                     <div>
-                        <img class="w-10 h-10" title="PHP" src="{{asset('images/php.png')}}">
+                        <img class="img_tecno" title="PHP" src="{{asset('images/php.png')}}">
                     </div>
                     <div>
-                        <img class="w-10 h-10" title="JavaScript" src="{{asset('images/JS.png')}}">
+                        <img class="img_tecno" title="JavaScript" src="{{asset('images/JS.png')}}">
                     </div>
                 </div>
 
@@ -35,11 +35,11 @@
                 </p>
                 <div class="flex gap-x-3">
                     <div>
-                        <img class="w-10 h-10" title="Laravel" src="{{asset('images/laravel.png')}}">
+                        <img class="img_tecno" title="Laravel" src="{{asset('images/laravel.png')}}">
                     </div>
 
                     <div>
-                        <img class="w-10 h-10" title="Codeigniter" src="{{asset('images/codenaiter.png')}}">
+                        <img class="img_tecno" title="Codeigniter" src="{{asset('images/codenaiter.png')}}">
                     </div>
                 </div>
 
@@ -58,27 +58,27 @@
                 </p>
                 <div class="flex gap-x-3">
                     <div>
-                        <img class="w-10 h-10" title="HTLM" src="{{asset('images/html.png')}}">
+                        <img class="img_tecno" title="HTLM" src="{{asset('images/html.png')}}">
                     </div>
 
                     <div>
-                        <img class="w-10 h-10" title="CSS" src="{{asset('images/css.png')}}">
+                        <img class="img_tecno" title="CSS" src="{{asset('images/css.png')}}">
                     </div>
 
                     <div>
-                        <img class="w-10 h-10" title="Vue.js" src="{{asset('images/vue.png')}}">
+                        <img class="img_tecno" title="Vue.js" src="{{asset('images/vue.png')}}">
                     </div>
 
                     <div>
-                        <img class="w-10 h-10" title="Tailwind" src="{{asset('images/twin.png')}}">
+                        <img class="img_tecno" title="Tailwind" src="{{asset('images/twin.png')}}">
                     </div>
 
                     <div>
-                        <img class="w-10 h-10" title="Ajax" src="{{asset('images/ajax.png')}}">
+                        <img class="img_tecno" title="Ajax" src="{{asset('images/ajax.png')}}">
                     </div>
 
                     <div>
-                        <img class="w-10 h-10" title="Livewire" src="{{asset('images/livewire.png')}}">
+                        <img class="img_tecno" title="Livewire" src="{{asset('images/livewire.png')}}">
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@
                 </p>
                 <div class="flex gap-x-3">
                     <div>
-                        <img class="w-10 h-10" title="MySQL" src="{{asset('images/mysql.png')}}">
+                        <img class="img_tecno" title="MySQL" src="{{asset('images/mysql.png')}}">
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
                 </p>
                 <div class="flex gap-x-3">
                     <div>
-                        <img class="w-10 h-10" title="MySQL" src="{{asset('images/gitlogo.png')}}">
+                        <img class="img_tecno" title="MySQL" src="{{asset('images/gitlogo.png')}}">
                     </div>
                 </div>
 
