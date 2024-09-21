@@ -1,14 +1,14 @@
 
 <div class="grid w-full h-[100%]  bg-[#172c3d]">
     <div class="grid w-full justify-items-center place-content-center py-[4rem]">
-        <h1 class="text-5xl text-white font-roboto font-bold">{{__('index.skills')}}</h1>
+        <h1 class="my_projectys_size text-white font-roboto font-bold">{{__('index.skills')}}</h1>
     </div>
     <div class="grid  gap-x-3 w-full mx-3 h-[80%] gap-y-3">
 
         <div class="flex w-full justify-center">
 
             <div class="w-full flex justify-center  gap-x-3">
-                <p class="text-4xl text-white font-roboto font-bold">
+                <p class="title_tecnic text-white font-roboto font-bold">
                      {{__('index.lenguaje')}}
                 </p>
                 <div class="flex gap-x-3">
@@ -21,13 +21,11 @@
                 </div>
 
             </div>
-
-
         </div>
         <div class="flex w-full justify-center">
 
             <div class="w-full flex justify-center  gap-x-3">
-                <p class="text-4xl text-white font-roboto font-bold">
+                <p class="title_tecnic text-white font-roboto font-bold">
                     BackEnd
                 </p>
                 <div class="flex gap-x-3">
@@ -48,7 +46,7 @@
 
         <div class="flex w-full justify-center">
             <div class="w-full flex justify-center  gap-x-3">
-                <p class="text-4xl text-white font-roboto font-bold">
+                <p class="title_tecnic text-white font-roboto font-bold">
                     FrontEnd
                 </p>
                 <div class="flex gap-x-3">
@@ -84,7 +82,7 @@
 
         <div class="flex w-full justify-center">
             <div class="w-full flex justify-center  gap-x-3">
-                <p class="text-4xl text-white font-roboto font-bold">
+                <p class="title_tecnic text-white font-roboto font-bold">
                     {{__('index.db')}}
                 </p>
                 <div class="flex gap-x-3">
@@ -98,7 +96,7 @@
 
         <div class="flex w-full justify-center">
             <div class="w-full flex justify-center  gap-x-3">
-                <p class="text-4xl text-white font-roboto font-bold">
+                <p class="title_tecnic text-white font-roboto font-bold">
                     Extras
                 </p>
                 <div class="flex gap-x-3">

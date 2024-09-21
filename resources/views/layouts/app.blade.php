@@ -829,6 +829,11 @@ opacity: 1;
     line-height: 1;
 }
 
+.title_tecnic {
+                font-size: 2.25rem /* 36px */;
+                line-height: 2.5rem /* 40px */;
+            }
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1538,6 +1543,11 @@ gap: 10px;
     font-size: 2.8rem /* 48px */;
     line-height: 1;
 }
+
+.title_tecnic {
+                font-size: 1.3rem /* 36px */;
+                line-height: 2rem /* 40px */;
+            }
 }
 
  .rounded_img{
