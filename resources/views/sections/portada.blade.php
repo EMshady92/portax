@@ -44,15 +44,18 @@
         </h3>
     </div>
     <div class="outer">
-    <i href="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159" title="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159/" class="fab fa-linkedin size_i_portada cursor-pointer redes"></i>
-    <i href="https://github.com/EMshady92" title="https://github.com/EMshady92" class="fa-brands fa-github size_i_portada cursor-pointer redes"></i>
-    <i class="fa-solid fa-file-contract size_i_portada cursor-pointer redes"></i>
+
+        <i onclick="funciton_copy();" id="copyButton" name="copyButton" title="wuish_92@hotmail.com" class="fas fa-envelope size_i_portada cursor-pointer redes"></i>
+        <i href="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159" title="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159/" class="fab fa-linkedin size_i_portada cursor-pointer redes"></i>
+        <i href="https://github.com/EMshady92" title="https://github.com/EMshady92" class="fa-brands fa-github size_i_portada cursor-pointer redes"></i>
+        <a target="_blank" href="{{asset('documents/CV CDPT ES.pdf')}}">
+            <i  id="downloadBtn" name="downloadBtn" class="fa-solid fa-file-contract size_i_portada cursor-pointer redes"></i>
+        </a>
     </div>
 </div>
 <style>
 
 </style>
 <script src="javascript">
-
 
 </script>
