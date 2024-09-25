@@ -34,7 +34,7 @@ datalist.option {
             <div class="absolute inset-0 bg-gray-500 opacity-75" onclick="ocultar_modal('modal_aboutme')"></div>
           </div>
           <!-- Contenedor del modal -->
-          <div style="width: 60%" class="border-2 border-blue-600 inline-block align-bottom bg-[#011629] rounded-lg text-left overflow-hidden shadow-xl transform transition-all  justify-items-center h-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+          <div class="modal_size border-2 border-blue-600 inline-block align-bottom bg-[#011629] rounded-lg text-left overflow-hidden shadow-xl transform transition-all  justify-items-center h-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
             <div class="bg-[#011629] pb-4 ">
               <div class="grid w-full mx-3 ">
 
@@ -42,15 +42,15 @@ datalist.option {
                 <div class="w-1/2 h-full mt-[8rem] ">
                     <div class="flex w-full">
                         <div class="w-full">
-                            <p style="text-shadow: 2px 2px 5px #6b7280;" class="text-white text-2xl font-roboto"><b class="text-3xl">!{{__('index.hola')}}</b>{{__('index.presentacion')}}</p>
+                            <p style="text-shadow: 2px 2px 5px #6b7280;" class="text-white presentacion font-roboto"><b class="hi">!{{__('index.hola')}}</b>{{__('index.presentacion')}}</p>
                         </div>
 
 
                     </div>
                 </div>
                 <div class="w-1/2 h-full flex justify-center mt-[6rem]">
-                    <div  class="girar rounded-md bg-[#172c3d]  w-[18rem] h-[18rem] block shadow-xl  border-dashed border-[5px] border-[#ec1c24]">
-                        <img class="w-[17.5rem] h-[17.3rem] rounded-md aos-init aos-animate" src="{{asset('images/me.png')}}">
+                    <div  class="girar rounded-md bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[5px] border-[#ec1c24]">
+                        <img class="img_me_modal rounded-md aos-init aos-animate" src="{{asset('images/me.png')}}">
                     </div>
                 </div>
                </div>

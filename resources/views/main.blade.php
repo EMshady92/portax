@@ -5,7 +5,7 @@
 
 
 
-    <div id="my_proyects" name="my_proyects" style="height:100%;" class="w-dvh  border-b-2 boder-[#67788a] flex bg-[#091a28]">
+    <div onscroll="myFunction()" id="my_proyects" name="my_proyects" style="height:100%;" class="w-dvh  border-b-2 boder-[#67788a] flex bg-[#091a28]">
         @include('sections.my_projects')
 
     </div>
@@ -20,6 +20,15 @@
 
 <script>
 
+
+(document).ready(function () {
+
+});
+document.getElementById("my_proyects").addEventListener("scroll", myFunction);
+
+function myFunction() {
+  alert('asdsa');
+}
 function mostrar_modal(id){
     $("#"+id).removeClass("hidden");
 }

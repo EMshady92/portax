@@ -834,6 +834,30 @@ opacity: 1;
                 line-height: 2.5rem /* 40px */;
             }
 
+.modal_size{
+        width: 60%;
+    }
+
+.hi{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.presentacion{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.div_img_modal{
+        width:18rem;
+        height:18rem;
+    }
+
+.img_me_modal{
+    width:17.5rem;
+    height:17.3rem;
+}
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1174,6 +1198,11 @@ gap: 10px;
     .coverax P span {
     font-size: 0.45em;
     }
+
+
+    .modal_size{
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
@@ -1238,6 +1267,30 @@ gap: 10px;
 .proyecs_sizes{
         width:100%
 
+    }
+
+    .modal_size{
+        width: 85%;
+    }
+
+.hi{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.presentacion{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.img_me_modal{
+    width:15.5rem;
+    height:15.5rem;
+}
+
+.div_img_modal{
+        width:16rem;
+        height:16rem;
     }
 }
 
@@ -1319,6 +1372,31 @@ gap: 10px;
     .columns_projets{
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+
+    .modal_size{
+        width: 90%;
+    }
+
+.img_me_modal{
+    width:14.5rem;
+    height:14.5rem;
+}
+
+.div_img_modal{
+        width:15rem;
+        height:15rem;
+}
+
+.hi{
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.presentacion{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1394,6 +1472,26 @@ gap: 10px;
     .coverax P span {
     font-size: 0.45em;
     }
+
+    .img_me_modal{
+    width:12.5rem;
+    height:12.5rem;
+}
+
+.div_img_modal{
+        width:13rem;
+        height:13rem;
+}
+
+.hi{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.presentacion{
+    font-size: 1rem;
+    line-height: 1rem;
+}
 }
 
 @media only screen and (max-width: 480px) {
@@ -1459,6 +1557,8 @@ gap: 10px;
 .proyecs_sizes{
         width:90%
     }
+
+
 }
 
 
@@ -1548,6 +1648,30 @@ gap: 10px;
                 font-size: 1.3rem /* 36px */;
                 line-height: 2rem /* 40px */;
             }
+
+.modal_size{
+  width: 95%;
+}
+
+
+.img_me_modal{
+    width:8.5rem;
+    height:8.5rem;
+}
+
+.div_img_modal{
+        width:9rem;
+        height:9rem;
+}
+
+.hi{
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.presentacion{
+    font-size: .8rem;
+
 }
 
  .rounded_img{
