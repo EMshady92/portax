@@ -1655,24 +1655,28 @@ gap: 10px;
 
 
 .img_me_modal{
-    width:8.5rem;
-    height:8.5rem;
+    width:7.5rem;
+    height:7.5rem;
 }
 
 .div_img_modal{
-        width:9rem;
-        height:9rem;
+        width:8rem;
+        height:8rem;
 }
 
 .hi{
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1.2rem;
+    line-height:1.2rem;
 }
 
 .presentacion{
-    font-size: .8rem;
+    font-size: 1rem;
 
 }
+
+}
+
+
 
  .rounded_img{
      border-radius: 100%;
