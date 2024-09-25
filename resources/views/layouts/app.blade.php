@@ -858,6 +858,12 @@ opacity: 1;
     width:17.5rem;
     height:17.3rem;
 }
+
+.info_modal_me{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1491,6 +1497,11 @@ gap: 10px;
 .presentacion{
     font-size: 1rem;
     line-height: 1rem;
+}
+
+.info_modal_me{
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 }
 

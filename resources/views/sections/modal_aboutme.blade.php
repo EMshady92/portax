@@ -49,8 +49,8 @@ datalist.option {
                     </div>
                 </div>
                 <div class="w-1/2 h-full flex justify-center mt-[6rem]">
-                    <div  class="girar rounded-md bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[5px] border-[#ec1c24]">
-                        <img class="img_me_modal rounded-md aos-init aos-animate" src="{{asset('images/me.png')}}">
+                    <div  class="girar rounded-md bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[5px] border-[#ec1c24] rounded_img">
+                        <img class="img_me_modal rounded-md aos-init aos-animate rounded_img" src="{{asset('images/me.png')}}">
                     </div>
                 </div>
                </div>
@@ -61,13 +61,13 @@ datalist.option {
                         {{__('index.educacion')}}
                     </h1>
 
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.escuela')}}: Instituto Tecnologico de Zacatecas.
                     </p>
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.ubicacion')}}: Zacatecas,México
                     </p>
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.perdiodo')}}: 2011-2016
                     </p>
                 </div>
@@ -77,76 +77,76 @@ datalist.option {
                         {{__('index.experiencia')}}
                     </h1>
                   <div class="w-full">
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.empresa')}}: NDL Bussines and Growth.
                     </p>
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.puesto')}}: {{__('index.team_leader')}}
                     </p>
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.ubicacion')}}: Querétaro, México
                     </p>
-                    <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                    <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                         {{__('index.perdiodo')}}: 02/2022 - {{__('index.actual')}}
                     </p>
                   </div>
                     <hr class="border-[#6b7280] w-[98.5%]">
                     <div class="w-full">
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                              {{__('index.empresa')}}: TENORED.
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.puesto')}}: {{__('index.web_developer')}}
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.ubicacion')}}: Zacatecas, México
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.perdiodo')}}: 02/2021 - 12/2021
                         </p>
                     </div>
                     <hr class="border-[#6b7280] w-[98.5%]">
                     <div class="w-full">
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                              {{__('index.empresa')}}: SEP.
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.puesto')}}: {{__('index.web_developer')}}
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.ubicacion')}}: Zacatecas, México
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.perdiodo')}}: 04/2019 - 02/2021
                         </p>
                     </div>
                     <hr class="border-[#6b7280] w-[98.5%]">
                     <div class="w-full">
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                              {{__('index.empresa')}}: APTIV.
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.puesto')}}: {{__('index.tecnic')}}
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.ubicacion')}}: Zacatecas, México
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.perdiodo')}}: 02/2018 - 04/2019
                         </p>
                     </div>
                     <hr class="border-[#6b7280] w-[98.5%]">
                     <div class="w-full">
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                              {{__('index.empresa')}}: NoMADA Industries.
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.puesto')}}: {{__('index.web_developer')}}
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.ubicacion')}}: Zacatecas, México
                         </p>
-                        <p class="font-bold text-white text-xl mx-2 my-2 indent-px">
+                        <p class="font-bold text-white info_modal_me mx-2 my-2 indent-px">
                             {{__('index.perdiodo')}}: 02/2016 - 01/2018
                         </p>
                     </div>
