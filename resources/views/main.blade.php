@@ -27,7 +27,7 @@
 document.getElementById("my_proyects").addEventListener("scroll", myFunction);
 
 function myFunction() {
-  alert('asdsa');
+
 }
 function mostrar_modal(id){
     $("#"+id).removeClass("hidden");
