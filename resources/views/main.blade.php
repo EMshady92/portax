@@ -20,15 +20,6 @@
 
 <script>
 
-
-(document).ready(function () {
-
-});
-document.getElementById("my_proyects").addEventListener("scroll", myFunction);
-
-function myFunction() {
-
-}
 function mostrar_modal(id){
     $("#"+id).removeClass("hidden");
 }
