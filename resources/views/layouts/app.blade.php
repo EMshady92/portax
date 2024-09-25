@@ -868,6 +868,10 @@ opacity: 1;
     margin-top: 8rem
 }
 
+.margin_img_me{
+    margin-top: 6rem
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1691,6 +1695,15 @@ gap: 10px;
 
 .margin_presentacion{
     margin-top: 3rem
+}
+
+.margin_img_me{
+    margin-top: 3.5rem
+}
+
+.info_modal_me{
+    font-size: .7rem;
+    line-height: 1rem;
 }
 
 }

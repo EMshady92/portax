@@ -48,7 +48,7 @@ datalist.option {
 
                     </div>
                 </div>
-                <div class="w-1/2 h-full flex justify-center mt-[6rem]">
+                <div class="w-1/2 h-full flex justify-center margin_img_me">
                     <div  class="girar rounded-md bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[5px] border-[#ec1c24] rounded_img">
                         <img class="img_me_modal rounded-md aos-init aos-animate rounded_img" src="{{asset('images/me.png')}}">
                     </div>
