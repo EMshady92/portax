@@ -1676,6 +1676,120 @@ gap: 10px;
 
 }
 
+@media only screen and (max-width: 380px) {
+
+.ancho_tarjeta{
+    width: 90%;
+}
+
+.img-widt{
+     width:100%;
+     margin-top:10px;
+}
+
+.title_1{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.title_2 {
+    font-size: .8rem;
+    line-height: 2.5rem;
+}
+
+.image_w_h{
+    width:18.5rem;
+    height:18.5rem;
+    box-sizing: border-box;
+}
+
+.div_img{
+    width:19rem;
+    height:19rem;
+}
+
+.flex_{
+    display:flex;
+    justify-content: center;
+}
+
+.tarjet_style{
+    height: 55%;
+    margin-top:75px;
+
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+
+
+.margin-all{
+    margin-top:20rem;
+}
+
+.outer {
+width:100%;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.margin-t-image {
+    margin-top:6rem;
+}
+
+.covera P {
+        font-size: 1em;
+    }
+    .covera P span {
+         font-size: 0.45em;
+    }
+
+    .coverax P span {
+    font-size: 0.45em;
+    }
+
+    .img_tecno{
+        height:1.8rem;
+        width:1.8rem;
+    }
+
+    .my_projectys_size{
+    font-size: 2.8rem /* 48px */;
+    line-height: 1;
+}
+
+.title_tecnic {
+                font-size: 1.3rem /* 36px */;
+                line-height: 2rem /* 40px */;
+            }
+
+.modal_size{
+  width: 95%;
+}
+
+
+.img_me_modal{
+    width:6.5rem;
+    height:6.5rem;
+}
+
+.div_img_modal{
+        width:7rem;
+        height:7rem;
+}
+
+.hi{
+    font-size: .8rem;
+    line-height:.8rem;
+}
+
+.presentacion{
+    font-size: .5rem;
+
+}
+
+}
+
 
 
  .rounded_img{
