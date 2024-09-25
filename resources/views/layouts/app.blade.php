@@ -872,6 +872,10 @@ opacity: 1;
     margin-top: 6rem
 }
 
+.size_i_portada{
+    font-size: 3rem;
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1704,6 +1708,10 @@ gap: 10px;
 .info_modal_me{
     font-size: .7rem;
     line-height: 1rem;
+}
+
+.size_i_portada{
+    font-size: 3rem;
 }
 
 }
