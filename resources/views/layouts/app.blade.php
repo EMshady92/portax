@@ -864,6 +864,10 @@ opacity: 1;
     line-height: 1.75rem;
 }
 
+.margin_presentacion{
+    margin-top: 8rem
+}
+
 }
 
 @media only screen and (max-width: 1875px) {
@@ -1683,6 +1687,10 @@ gap: 10px;
 .presentacion{
     font-size: 1rem;
 
+}
+
+.margin_presentacion{
+    margin-top: 3rem
 }
 
 }

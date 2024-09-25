@@ -39,7 +39,7 @@ datalist.option {
               <div class="grid w-full mx-3 ">
 
                 <div class="w-full flex my-2">
-                <div class="w-1/2 h-full mt-[8rem] ">
+                <div class="w-1/2 h-full margin_presentacion ">
                     <div class="flex w-full">
                         <div class="w-full">
                             <p style="text-shadow: 2px 2px 5px #6b7280;" class="text-white presentacion font-roboto"><b class="hi">!{{__('index.hola')}}</b>{{__('index.presentacion')}}</p>
