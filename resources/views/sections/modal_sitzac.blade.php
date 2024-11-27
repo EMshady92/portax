@@ -7,10 +7,20 @@
             SIT-ZAC
         <span  class="text-left font-roboto">
             {{__('index.sitzac_summary')}}
-            <br>
-            {{__('index.hvacopcost_summary2')}}
-        </span>
-        </p>
+            {{-- <br>
+            {{__('index.sitzac_summary2')}}
+        </span> --}}
+        <br>
+        - {{__('index.promocion_juicio_linea')}}
+          <br>
+        - {{__('index.notificacion_boletin')}}
+        <br>
+        - {{__('index.presentacion_prom')}}
+        <br>
+        - {{__('index.agendar_citas')}}
+        <br>
+        - {{__('index.efirma')}}
+    </p>
 
 
     </div>

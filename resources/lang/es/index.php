@@ -4,7 +4,7 @@ return [
     'about_me' => 'Sobre mi',
     'idioma' => 'Idioma',
     'web_developer' => 'Desarrollador Web',
-    'my_proyects' => 'Mis Projectos',
+    'my_proyects' => 'Mis Proyectos',
     'pect_port_summary' => 'Sistema de Gestión: Programa Escuelas de Tiempo Completo, utilizado para manejo de nómina, chequeo y administración de pagos, generación de listas de asistencias, además de un módulo para docentes.',
     'sitzac_port_summary' => 'Sistema Informático del Tribunal de Justicia Administrativa del Estado de Zacatecas. (SIT-ZAC)',
     'hvacopcost_port_summary' => 'Software Online para el Análisis Energético, Financiero y Confort de Proyectos HVAC',
