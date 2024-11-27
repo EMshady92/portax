@@ -39,7 +39,7 @@
     </div>
 
      <div class="outer">
-        <h3 style="text-shadow: 2px 2px 5px #011629;" class="typewriter font-roboto title_2 text-white">
+        <h3 style="text-shadow: 2px 2px 5px #011629;" class=" font-roboto title_2 text-white">
             I.S.C. Carlos Daniel Pacheco
         </h3>
     </div>
@@ -48,9 +48,19 @@
         <i onclick="funciton_copy();" id="copyButton" name="copyButton" title="wuish_92@hotmail.com" class="fas fa-envelope size_i_portada cursor-pointer redes"></i>
         <i href="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159" title="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159/" class="fab fa-linkedin size_i_portada cursor-pointer redes"></i>
         <i href="https://github.com/EMshady92" title="https://github.com/EMshady92" class="fa-brands fa-github size_i_portada cursor-pointer redes"></i>
+
+
+        @if (App::getLocale() == 'es')
         <a target="_blank" href="{{asset('documents/CV CDPT ES.pdf')}}">
             <i  id="downloadBtn" name="downloadBtn" class="fa-solid fa-file-contract size_i_portada cursor-pointer redes"></i>
         </a>
+        @endif
+
+        @if (App::getLocale() == 'en')
+        <a target="_blank" href="{{asset('documents/CV CDPT EN.pdf')}}">
+            <i  id="downloadBtn" name="downloadBtn" class="fa-solid fa-file-contract size_i_portada cursor-pointer redes"></i>
+        </a>
+        @endif
     </div>
 </div>
 <style>

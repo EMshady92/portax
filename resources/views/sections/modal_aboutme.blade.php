@@ -49,8 +49,8 @@ datalist.option {
                     </div>
                 </div>
                 <div class="w-1/2 h-full flex justify-center margin_img_me">
-                    <div  class="girar rounded-md bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[5px] border-[#ec1c24] rounded_img">
-                        <img class="img_me_modal rounded-md aos-init aos-animate rounded_img" src="{{asset('images/me.png')}}">
+                    <div  class=" rounded-md bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[5px] border-[#011629] ">
+                        <img class="img_me_modal  aos-init aos-animate " src="{{asset('images/me.png')}}">
                     </div>
                 </div>
                </div>
@@ -153,7 +153,7 @@ datalist.option {
                 </div>
               </div>
             </div>
-            <div class="bg-[#172c3d] px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+            <div class="bg-[#172c3d] px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse w-full">
               <span class="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
                 <button type="button" class="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-[#011629] text-base leading-6 font-medium text-[#ec1c24] shadow-sm hover:bg-[#67788a] focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-sm sm:leading-5" onclick="ocultar_modal('modal_aboutme')">
                 {{__('index.cerrar')}}
