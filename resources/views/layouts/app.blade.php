@@ -855,8 +855,8 @@ opacity: 1;
     }
 
 .img_me_modal{
-    width:17.5rem;
-    height:17.3rem;
+    width:17.98rem;
+    height:17.7rem;
 }
 
 .info_modal_me{
