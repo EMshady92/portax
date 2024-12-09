@@ -248,7 +248,7 @@ background-repeat: no-repeat;
 
 .covera.parallaxas_hmop {
 
-background-image: url('{{ asset('images/hmop_imgs/ajax.png') }}'); /* esto se ira a un modal */
+background-image: url('{{ asset('images/hmop_imgs/portada_hmop.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
 background-repeat: no-repeat;
