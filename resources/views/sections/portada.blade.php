@@ -46,11 +46,14 @@
     <div class="outer">
 
         <i onclick="funciton_copy();" id="copyButton" name="copyButton" title="wuish_92@hotmail.com" class="fas fa-envelope size_i_portada cursor-pointer redes"></i>
+
         <a target="_blank" href="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159">
         <i title="https://www.linkedin.com/in/carlos-daniel-torres-bb0259159/" class="fab fa-linkedin size_i_portada cursor-pointer redes"></i>
         </a>
-        <i href="https://github.com/EMshady92" title="https://github.com/EMshady92" class="fa-brands fa-github size_i_portada cursor-pointer redes"></i>
 
+        <a target="_blank" href="https://github.com/EMshady92">
+        <i title="https://github.com/EMshady92" class="fa-brands fa-github size_i_portada cursor-pointer redes"></i>
+        </a>
 
         @if (App::getLocale() == 'es')
         <a target="_blank" href="{{asset('documents/CV CDPT ES.pdf')}}">
