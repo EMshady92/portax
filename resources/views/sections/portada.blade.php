@@ -30,7 +30,7 @@
 </div> --}}
 <div class="ancho_tarjeta grid justify-items-center tarjet_style ">
     <div class="floating aos-init aos-animate rounded_img bg-[#172c3d] div_img block shadow-xl  border-dashed border-[5px] border-[#011629]">
-        <img class="image_w_h rounded_img aos-init aos-animate" src="{{asset('images/me.png')}}">
+        <img class="image_w_h rounded_img aos-init aos-animate" src="{{asset('images/back_new2.jpg')}}">
     </div>
     <div class="outer">
         <h1 style="text-shadow: 2px 2px 5px #011629;" class=" font-roboto title_1 text-white">

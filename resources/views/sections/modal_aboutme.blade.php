@@ -39,7 +39,7 @@ datalist.option {
               <div class="grid w-full mx-3 ">
 
                 <div class="w-full flex my-2">
-                <div class="w-1/2 h-full margin_presentacion ">
+                <div class="w-full h-full margin_presentacion mx-2">
                     <div class="flex w-full">
                         <div class="w-full">
                             <p style="text-shadow: 2px 2px 5px #6b7280;" class="text-white presentacion font-roboto"><b class="hi">!{{__('index.hola')}}</b>{{__('index.presentacion')}}</p>
@@ -48,11 +48,11 @@ datalist.option {
 
                     </div>
                 </div>
-                <div class="w-1/2 h-full flex justify-center margin_img_me">
+                {{-- <div class="w-1/2 h-full flex justify-center margin_img_me">
                     <div  class=" rounded-lg bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[3px] border-[#6b7280] ">
                         <img class="img_me_modal  aos-init aos-animate " src="{{asset('images/me.png')}}">
                     </div>
-                </div>
+                </div> --}}
                </div>
                <br>
 

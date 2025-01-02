@@ -184,7 +184,7 @@
 
 .covera.parallaxasx_petc {
 
-background-image: url('{{ asset('images/petc_imgs/quienes_somos.png') }}'); /* esto se ira a un modal */
+background-image: url('{{ asset('images/petc_imgs/portada_petc.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
 background-repeat: no-repeat;
@@ -202,7 +202,7 @@ background-repeat: no-repeat;
 
 .covera.parallaxasx_hvacopcost {
 
-background-image: url('{{ asset('images/hvacopcost_imgs/new_p.png') }}'); /* esto se ira a un modal */
+background-image: url('{{ asset('images/hvacopcost_imgs/portada_hvac.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
 background-repeat: no-repeat;
@@ -220,7 +220,7 @@ background-repeat: no-repeat;
 
 .covera.parallaxasx_sitzac {
 
-background-image: url('{{ asset('images/sitzac_imgs/welcome_sitzac.png') }}'); /* esto se ira a un modal */
+background-image: url('{{ asset('images/sitzac_imgs/portada_sitzac.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
 background-repeat: no-repeat;
@@ -238,7 +238,7 @@ background-repeat: no-repeat;
 
 .covera.parallaxasx_inventory {
 
-background-image: url('{{ asset('images/inventory_imgs/almacenes.png') }}'); /* esto se ira a un modal */
+background-image: url('{{ asset('images/inventory_imgs/portada_inventory.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
 background-repeat: no-repeat;
@@ -257,7 +257,7 @@ background-repeat: no-repeat;
 
 .covera.parallaxasx_hmop {
 
-background-image: url('{{ asset('images/hmop_imgs/table.png') }}'); /* esto se ira a un modal */
+background-image: url('{{ asset('images/hmop_imgs/portada_hmop.png') }}'); /* esto se ira a un modal */
 position: relative;
 margin-top: -25px;
 background-repeat: no-repeat;
@@ -865,7 +865,7 @@ opacity: 1;
 }
 
 .margin_presentacion{
-    margin-top: 8rem
+    margin-top: 5rem
 }
 
 .margin_img_me{
