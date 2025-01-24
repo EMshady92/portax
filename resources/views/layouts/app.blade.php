@@ -6,6 +6,10 @@
     <meta property="og:title" content="Daniel Web Developer" />
     <meta property="og:description" content="!Hola mi nombre es Carlos Daniel Pacheco Torres soy Ingeniero en sistemas computacionales con 6 años de experiencia laboral, desarrollando principalmente aplicaciones web." />
     <meta property="og:type" content="website" />
+
+    <meta name="twitter:title" content="Mi Sitio Web" />
+    <meta name="twitter:description" content="Bienvenido a mi sitio web personal" />
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{asset('images/back_new2.jpg')}}">
