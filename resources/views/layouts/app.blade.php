@@ -3,10 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Título de tu página" />
-    <meta property="og:description" content="Descripción de tu página" />
-    <meta property="og:image" content="URL de la imagen" />
-    <meta property="og:url" content="URL de tu página" />
+    <meta property="og:title" content="Daniel Web Developer" />
+    <meta property="og:description" content="!Hola mi nombre es Carlos Daniel Pacheco Torres soy Ingeniero en sistemas computacionales con 6 años de experiencia laboral, desarrollando principalmente aplicaciones web." />
     <meta property="og:type" content="website" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
