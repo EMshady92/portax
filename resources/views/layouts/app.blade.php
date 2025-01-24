@@ -3,7 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta property="og:title" content="Título de tu página" />
+    <meta property="og:description" content="Descripción de tu página" />
+    <meta property="og:image" content="URL de la imagen" />
+    <meta property="og:url" content="URL de tu página" />
+    <meta property="og:type" content="website" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" href="{{asset('images/back_new2.jpg')}}">
