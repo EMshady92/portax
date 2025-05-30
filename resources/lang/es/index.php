@@ -13,7 +13,7 @@ return [
     'skills' => 'Habilidades',
     'db' => 'Bases de Datos',
     'lenguaje' => 'Lenguajes',
-    'presentacion'=>" mi nombre es Carlos Daniel Pacheco Torres soy Ingeniero en sistemas computacionales con 6 años de experiencia laboral, desarrollando principalmente aplicaciones web. Abierto al cambio en busca de nuevas oportunidades de crecimiento laboral.",
+    'presentacion'=>" mi nombre es Carlos Daniel Pacheco Torres Soy Ingeniero en Sistemas Computacionales Desarrollador Full-stack con más de 6 años de experiencia en la creación de aplicaciones web escalables utilizando Laravel, PHP, JavaScript(Vue.js, React.js). Optimizando procesos de back-end y desarrollando herramientas utilizadas por clientes en Latinoamérica y EE.UU. Amplia experiencia en administración de servidores, diseño de APIs y arquitectura de sistemas. Soy una persona  creativa, proactiva y orientada a cumplir los objetivos de la empresa, me adapto rápido a los cambios de entorno, destaco por mi capacidad de trabajar en equipo y establecer relaciones interpersonales, así como mi  facilidad para aprender nuevas tecnologías y lenguajes de programación. Estoy abierto a nuevas oportunidades laborales que me permitan seguir creciendo profesionalmente.",
     'hola' => 'Hola',
     'educacion' => 'Educación',
     'escuela' => 'Universidad',

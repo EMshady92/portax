@@ -684,14 +684,14 @@ p {
     }
 
     .image_w_h{
-        width:27.5rem;
-        height:27.5rem;
+        width:24.5rem;
+        height:24.5rem;
         box-sizing: border-box;
     }
 
     .div_img{
-        width:28rem;
-        height:28rem;
+        width:25rem;
+        height:25rem;
     }
 
     .flex_{

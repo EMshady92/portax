@@ -1,5 +1,5 @@
 <div class="w-full grid h-full ">
-    <div class="h-screen w-full portada_back_color border-b-2 boder-[#67788a] flex_">
+    <div class="h-screen w-full portada_back_color place-items-center flex_">
         @include('sections.portada')
     </div>
 

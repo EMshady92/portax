@@ -13,7 +13,7 @@ return [
     'skills' => 'Skills',
     'db' => 'Data Bases',
     'lenguaje' => 'Languages',
-    'presentacion'=>", my name is Carlos Daniel Pacheco Torres. I am a Computer Systems Engineer with 6 years of work experience, primarily developing web applications. Open to change and seeking new opportunities for career growth.",
+    'presentacion'=>", Mi name is Carlos Daniel Pacheco Torres. I am a Computer Systems Engineer and Full-stack Developer with over 6 years of experience in creating scalable web applications using Laravel, PHP, and JavaScript (Vue.js, React.js). I have optimized back-end processes and developed tools used by clients in Latin America and the USA. I have extensive experience in server administration, API design, and system architecture. I am a creative, proactive person focused on achieving company objectives, quick to adapt to changing environments, excel at teamwork and interpersonal relationships, and have a strong ability to learn new technologies and programming languages. I am open to new job opportunities that allow me to continue growing professionally.",
     'hola' => 'Hi',
     'educacion' => 'Education',
     'escuela' => 'University',

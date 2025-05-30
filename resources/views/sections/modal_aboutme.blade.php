@@ -35,26 +35,9 @@ datalist.option {
           </div>
           <!-- Contenedor del modal -->
           <div class="modal_size border-2 border-blue-600 inline-block align-bottom bg-[#011629] rounded-lg text-left overflow-hidden shadow-xl transform transition-all  justify-items-center h-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
-            <div class="bg-[#011629] pb-4 ">
-              <div class="grid w-full mx-3 ">
+            <div class="bg-[#011629] pb-4 flex justify-startn w-full">
+              <div class="grid w-full mx-3 justify-items-start">
 
-                <div class="w-full flex my-2">
-                <div class="w-full h-full margin_presentacion mx-2">
-                    <div class="flex w-full">
-                        <div class="w-full">
-                            <p style="text-shadow: 2px 2px 5px #6b7280;" class="text-white presentacion font-roboto"><b class="hi">!{{__('index.hola')}}</b>{{__('index.presentacion')}}</p>
-                        </div>
-
-
-                    </div>
-                </div>
-                {{-- <div class="w-1/2 h-full flex justify-center margin_img_me">
-                    <div  class=" rounded-lg bg-[#172c3d]  block shadow-xl div_img_modal border-dashed border-[3px] border-[#6b7280] ">
-                        <img class="img_me_modal  aos-init aos-animate " src="{{asset('images/me.png')}}">
-                    </div>
-                </div> --}}
-               </div>
-               <br>
 
                <div class="w-full">
                     <h1 class="font-bold text-[#67788a] text-2xl mx-2 my-2 indent-px">
