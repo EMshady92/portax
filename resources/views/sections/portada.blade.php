@@ -70,7 +70,7 @@
                     @endif
                 </div>
         </div>
-        <div class="w-2/3 grid justify-items-center items-center place-content-center">
+        <div class="w-2/3 h-full grid justify-items-center items-center place-content-center">
 
            <div class="flex justify-center mx-3">
               <p style="text-shadow: 2px 2px 5px #6b7280;" class="text-white presentacion font-roboto"><b class="hi">!{{__('index.hola')}}</b>{{__('index.presentacion')}}</p>

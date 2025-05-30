@@ -850,7 +850,7 @@ opacity: 1;
 }
 
 .presentacion{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2rem;
 }
 
@@ -1303,7 +1303,7 @@ gap: 10px;
 }
 
 .presentacion{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 2rem;
 }
 
