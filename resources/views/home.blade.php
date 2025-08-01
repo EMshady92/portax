@@ -43,7 +43,7 @@
             <h1 class="text-5xl md:text-7xl font-bold mb-6">
                 Hola, soy <span class="text-accent">Carlos Daniel</span>
             </h1>
-            <p class="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto">
+            <p class="text-md 2xl:text-xl xl:text-xl md:text-2xl sm:text-lg xs:text-md mb-8 text-gray-200 max-w-3xl mx-auto">
                 Ingeniero en Sistemas Computacionales y Desarrollador Full-Stack con más de 6 años de experiencia creando aplicaciones web escalables
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
