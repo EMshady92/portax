@@ -40,7 +40,7 @@
                     <img src="{{asset('images/bird_mora.png')}}" alt="Carlos Daniel - Developer" class="w-full h-full object-cover rounded-full border-4 border-white/30">
                 </div>
 
-            <h1 class="text-5xl md:text-7xl font-bold mb-6">
+            <h1 class="text-2xl 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-7xl font-bold mb-6">
                 Hola, soy <span class="text-accent">Carlos Daniel</span>
             </h1>
             <p class="text-md 2xl:text-xl xl:text-xl md:text-2xl sm:text-lg xs:text-md mb-8 text-gray-200 max-w-3xl mx-auto">
