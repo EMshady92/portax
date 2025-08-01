@@ -79,6 +79,24 @@
   --nav-height: 4rem; /* Adjust this to match your nav's height */
 }
 
+ /* Carousel Styles */
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .carousel-slide.active {
+            opacity: 1;
+        }
+
+        .carousel-indicator.active {
+            opacity: 1 !important;
+        }
 
     </style>
 </head>

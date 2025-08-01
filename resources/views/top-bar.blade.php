@@ -1,42 +1,33 @@
-
-<div class="w-full grid ">
-    <div class=" bg-[#011629] w-[100%] py-3 flex shadow-xl">
-        <div class="w-[20%]">
-            <img class="img-widt shadow-lg mx-2" src="{{asset('images/logo_port.png')}}">
-
-        </div>
-
-         @include('sections.modal_aboutme')
-        <div class="w-full flex justify-end">
-            <div class="grid grid-cols-2 divide-x-0 w-3/4 mx-2 text-white  place-items-center font-roboto 2xl:text-3xl xl:text-2xl lg:text-xl md:text-xl sm:text-xl ms:text-lg">
-                <div onclick="mostrar_modal('modal_aboutme');" class="w-full cursor-pointer hover:rounded-b-lg flex justify-center h-full place-items-center">{{ __('index.about_me')}}
+<!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-md shadow-sm z-50 border-b-2 border-gray-400 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold text-gray-900">
+                    <span class="text-primary">Carlos</span> Daniel
                 </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#inicio" class="nav-link text-gray-700 hover:text-primary font-medium">{{ __('index.inicio') }}</a>
+                    <a href="#sobre-mi" class="nav-link text-gray-700 hover:text-primary font-medium">{{ __('index.about_me') }}</a>
+                    <a href="#proyectos" class="nav-link text-gray-700 hover:text-primary font-medium">{{ __('index.my_proyects') }}</a>
+                    <a href="#habilidades" class="nav-link text-gray-700 hover:text-primary font-medium">{{ __('index.skills') }}</a>
+                    <a href="#contacto" class="nav-link text-gray-700 hover:text-primary font-medium">{{ __('index.contact') }}</a>
+                    @if (App::getLocale() == 'es')
+                    <a href="{{ url('locale/en')}}" class="nav-link text-gray-700 hover:text-primary font-medium">English</a>
+                    @endif
 
-                <div class="dropdown">
-                    <button id="idms" onclick="myFunction()" class="dropbtn font-roboto hover:text-[#]">{{__('index.idioma')}}</button>
-                    <div id="myDropdown" class=" grid dropdown-content hidden absolute z-10 bg-[#5d7081] w-[100px] rounded-md ">
-                      {{--   {{ App::getLocale() }} --}}
-                        <div class="w-full mx-3 grid">
-
-                            @if (App::getLocale() == 'es')
-                            <a href="{{ url('locale/en')}}" class="font-roboto">En</a>
-                            @endif
-
-                            @if (App::getLocale() == 'en')
-                            <a href="{{ url('locale/es')}}" class="font-roboto">Es</a>
-                            @endif
-
-                        </div>
-
-
-                    </div>
-                  </div>
-                {{-- <button>BN</button> --}}
+                    @if (App::getLocale() == 'en')
+                    <a href="{{ url('locale/es')}}" class="nav-link text-gray-700 hover:text-primary font-medium">Español</a>
+                    @endif
+                </div>
+                <div class="md:hidden">
+                    <button class="text-gray-700 hover:text-primary">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
             </div>
-
         </div>
-    </div>
-    <hr class="animated-hr">
+    </nav>"
+
 
 <script>
 
