@@ -33,7 +33,7 @@ return [
     'lenguaje' => 'Lenguajes',
     'presentacion'=>"Ingeniero en Sistemas Computacionales y Desarrollador Full-Stack con más de 6 años de experiencia creando aplicaciones web escalables.",
     'hola' => 'Hola',
-    'im' => 'soy',
+    'soy' => 'soy',
     'educacion' => 'Educación',
     'escuela' => 'Universidad',
     'ubicacion' => 'Ubicación',

@@ -165,7 +165,7 @@
             currentSlides[carouselId] = 0;
             carouselIntervals[carouselId] = setInterval(() => {
                 nextSlide(carouselId);
-            }, 1000); // Change slide every 3 seconds
+            }, 2000); // Change slide every 3 seconds
         }
 
         function stopCarousel(carouselId) {
