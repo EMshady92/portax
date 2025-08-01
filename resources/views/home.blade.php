@@ -36,9 +36,10 @@
     <section id="inicio" class="gradient-bg min-h-screen flex items-center justify-center relative overflow-hidden">
         <div class="absolute inset-0 bg-black/20"></div>
         <div class="relative z-10 text-center text-white px-4">
-             <div class="w-[20rem] h-[20rem] mx-auto bg-white/20 backdrop-blur-md rounded-full p-2 mb-6 animate-float  rounded-ful">
+             <div class="w-[14rem] h-[14rem] mx-auto bg-white/20 backdrop-blur-md rounded-full p-2 mb-6 animate-float">
                     <img src="{{asset('images/bird_mora.png')}}" alt="Carlos Daniel - Developer" class="w-full h-full object-cover rounded-full border-4 border-white/30">
                 </div>
+
             <h1 class="text-5xl md:text-7xl font-bold mb-6">
                 Hola, soy <span class="text-accent">Carlos Daniel</span>
             </h1>

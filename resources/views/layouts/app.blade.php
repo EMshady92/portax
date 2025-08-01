@@ -75,6 +75,11 @@
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-20px); }
         }
+        :root {
+  --nav-height: 4rem; /* Adjust this to match your nav's height */
+}
+
+
     </style>
 </head>
 
