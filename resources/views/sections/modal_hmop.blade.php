@@ -1,4 +1,4 @@
-<div  id="modal_hmop" name="modal_hmop" onclick="show_info('info_porta_hmop','parallaxasx_hmop')"  class="proyecs_sizes  bg-[#172c3d] rounded overflow-hidden  border-[3px] border-[#67788a] cursor-pointer hover:border-[#ec1c24] ">
+{{-- <div  id="modal_hmop" name="modal_hmop" onclick="show_info('info_porta_hmop','parallaxasx_hmop')"  class="proyecs_sizes  bg-[#172c3d] rounded overflow-hidden  border-[3px] border-[#67788a] cursor-pointer hover:border-[#ec1c24] ">
 
 
     <div class="covera parallaxas_hmop"  id="info_porta_hmop" name="info_porta_hvacopcost">
@@ -53,56 +53,122 @@
     </div>
 </div>
 </div>
-</div>
-{{-- <div id="modal_hmop" name="modal_hmop" class="fixed z-10 inset-0 overflow-y-auto mt-10 hidden">
-    <style>
-datalist {
-  position: absolute;
-  background-color: white;
-  border: 1px solid blue;
-  border-radius: 0 0 5px 5px;
-  border-top: none;
-  font-family: sans-serif;
-  width: 350px;
-  padding: 5px;
-}
+</div> --}}
 
-datalist.option {
-  background-color: white;
-  padding: 4px;
-  color: blue;
-  margin-bottom: 1px;
-  font-size: 18px;
-  cursor: pointer;
-}
-    </style>
-        <div class="flex  items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-          <!-- Fondo oscuro -->
-          <div class="fixed inset-0 transition-opacity">
-            <div class="absolute inset-0 bg-gray-500 opacity-75" onclick="ocultar_modal('modal_hmop')"></div>
-          </div>
-          <!-- Contenedor del modal -->
-          <div style="width: 60%" class="border-2 border-blue-600 inline-block align-bottom bg-[#011629] rounded-lg text-left overflow-hidden shadow-xl transform transition-all  justify-items-center" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
-            <div class="bg-[#011629] pb-4">
-              <div class="grid w-full">
-               <div class="w-full">
-                @include('body_carts_projects.portada_hmop')
-                @include('body_carts_projects.sumary_hmop')
-               </div>
-              </div>
+
+<!-- HMOP Modal -->
+    <div id="hmop-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-2xl max-w-4xl mx-4 max-h-[90vh] overflow-y-auto">
+            <div class="p-8">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-3xl font-bold text-gray-900">HMOP HVAC Mantainance</h2>
+                    <button onclick="toggleDetails('hmop-modal');" class="text-gray-400 hover:text-gray-600 text-2xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl p-8 text-center mb-6">
+                            <i class="fas fa-tools text-6xl text-white mb-4"></i>
+                            <h3 class="text-xl font-roboto text-white">HMOP HVAC Mantainance</h3>
+                        </div>
+
+                        <div class="space-y-4">
+                            <div class="bg-cyan-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-cyan-900 mb-2">
+                                    <i class="fas fa-industry text-cyan-600 mr-2"></i>
+                                    Sector
+                                </h4>
+                                <p class="text-cyan-800">Mantenimiento Industrial HVAC</p>
+                            </div>
+
+                            <div class="bg-blue-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-blue-900 mb-2">
+                                    <i class="fas fa-rocket text-blue-600 mr-2"></i>
+                                    Innovación
+                                </h4>
+                                <p class="text-blue-800">Tecnologías modernas: Laravel + Livewire</p>
+                            </div>
+
+                            <div class="bg-green-50 p-4 rounded-lg">
+                                <h4 class="font-semibold text-green-900 mb-2">
+                                    <i class="fas fa-mobile-alt text-green-600 mr-2"></i>
+                                    UX/UI
+                                </h4>
+                                <p class="text-green-800">Interfaz moderna con Tailwind CSS</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">Sobre el Proyecto</h3>
+                        <p class="text-gray-600 mb-6">
+                            HMOP es una plataforma especializada para la gestión integral de mantenimiento de equipos HVAC (Heating, Ventilation, and Air Conditioning), desarrollada con tecnologías modernas para ofrecer una experiencia de usuario superior en el sector industrial.
+                        </p>
+
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Funcionalidades Clave</h4>
+                         <ul class="space-y-2 mb-6">
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-bolt text-yellow-500 mr-3"></i>
+                                Interfaz reactiva con Livewire
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-calendar-alt text-blue-500 mr-3"></i>
+                                Programación inteligente de mantenimientos
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-chart-line text-green-500 mr-3"></i>
+                                Dashboard con métricas en tiempo real
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-mobile-alt text-purple-500 mr-3"></i>
+                                Diseño completamente responsive
+                            </li>
+                            <li class="flex items-center text-gray-600">
+                                <i class="fas fa-history text-orange-500 mr-3"></i>
+                                Historial detallado de intervenciones
+                            </li>
+                        </ul>
+
+                         <h4 class="text-xl font-semibold text-gray-900 mb-3">Módulos Principales</h4>
+                        <div class="space-y-3 mb-6">
+                            <div class="bg-blue-50 p-3 rounded-lg">
+                                <h5 class="font-semibold text-blue-900 mb-1">
+                                    <i class="fas fa-tools text-blue-600 mr-2"></i>
+                                    Gestión de Equipos
+                                </h5>
+                                <p class="text-blue-800 text-sm">Inventario completo con especificaciones técnicas y predicción de reemplazos</p>
+                            </div>
+                            <div class="bg-green-50 p-3 rounded-lg">
+                                <h5 class="font-semibold text-green-900 mb-1">
+                                    <i class="fas fa-calendar-check text-green-600 mr-2"></i>
+                                    Programación de Servicios
+                                </h5>
+                                <p class="text-green-800 text-sm">Calendario inteligente con optimización de rutas para técnicos</p>
+                            </div>
+                            <div class="bg-purple-50 p-3 rounded-lg">
+                                <h5 class="font-semibold text-purple-900 mb-1">
+                                    <i class="fas fa-boxes text-purple-600 mr-2"></i>
+                                    Control de Inventarios
+                                </h5>
+                                <p class="text-purple-800 text-sm">Gestión de repuestos con alertas de stock y trazabilidad de costos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h4 class="text-xl font-roboto text-gray-900 mb-4">Tecnologías Implementadas</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full font-medium">Laravel 7</span>
+                        <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-medium">MySQL</span>
+                        <span class="px-4 py-2 bg-green-100 text-green-800 rounded-full font-medium">HTML/CSS</span>
+                        <span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full font-medium">JavaScript</span>
+                        <span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full font-medium">Ajax</span>
+                        <span class="px-4 py-2 bg-gray-100 text-gray-800 rounded-full font-medium">Git</span>
+                    </div>
+                </div>
             </div>
-            <div class="bg-[#172c3d] px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
-              <span class="flex w-full rounded-md shadow-sm sm:ml-3 sm:w-auto">
-                <button type="button" class="inline-flex justify-center w-full rounded-md border border-transparent px-4 py-2 bg-[#011629] text-base leading-6 font-medium text-[#ec1c24] shadow-sm hover:bg-[#67788a] focus:outline-none focus:border-blue-700 focus:shadow-outline-blue transition ease-in-out duration-150 sm:text-sm sm:leading-5" onclick="ocultar_modal('modal_hmop')">
-                    {{__('index.cerrar')}}
-                </button>
-              </span>
-            </div>
-          </div>
         </div>
-        <script>
-
-        </script>
-      </div>
-
- --}}
+    </div>

@@ -48,7 +48,7 @@
                             <span class="tech-badge px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">MySQL</span>
                             <span class="tech-badge px-3 py-1 bg-purple-100 text-purple-800 text-sm rounded-full">Ajax</span>
                         </div>
-                        <button class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
+                        <button onclick="toggleDetails('sitzac-modal');" class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
                            {{ __('index.ver_detalles') }}
                         </button>
                     </div>
@@ -72,7 +72,7 @@
                             <span class="tech-badge px-3 py-1 bg-green-100 text-green-800 text-sm rounded-full">HTML/CSS</span>
                             <span class="tech-badge px-3 py-1 bg-gray-100 text-gray-800 text-sm rounded-full">Git</span>
                         </div>
-                        <button class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
+                        <button onclick="toggleDetails('petc-modal');" class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
                             {{ __('index.ver_detalles') }}
                         </button>
                     </div>
@@ -93,7 +93,7 @@
                             <span class="tech-badge px-3 py-1 bg-pink-100 text-pink-800 text-sm rounded-full">Livewire</span>
                             <span class="tech-badge px-3 py-1 bg-cyan-100 text-cyan-800 text-sm rounded-full">Tailwind</span>
                         </div>
-                        <button class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
+                        <button onclick="toggleDetails('hmop-modal');" class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
                            {{ __('index.ver_detalles') }}
                         </button>
                     </div>
@@ -117,7 +117,7 @@
                             <span class="tech-badge px-3 py-1 bg-pink-100 text-pink-800 text-sm rounded-full">Livewire</span>
                             <span class="tech-badge px-3 py-1 bg-cyan-100 text-cyan-800 text-sm rounded-full">Tailwind</span>
                         </div>
-                        <button class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
+                        <button onclick="toggleDetails('inventory-modal');" class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
                             {{ __('index.ver_detalles') }}
                         </button>
                     </div>
