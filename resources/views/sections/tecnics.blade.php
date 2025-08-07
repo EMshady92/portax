@@ -170,7 +170,7 @@
 
                 <div class="text-center">
                     <div class="bg-gradient-to-br from-purple-500 to-violet-600 p-6 rounded-xl mb-4">
-                        <h3 class="text-xl font-roboto text-white mb-4">Herramientas</h3>
+                        <h3 class="text-xl font-roboto text-white mb-4">{{ __('index.tools') }}</h3>
                         <div class="space-y-3">
                             <div class="bg-white/20 rounded-lg p-3">
                                 <i class="fas fa-database text-3xl text-white mb-2"></i>

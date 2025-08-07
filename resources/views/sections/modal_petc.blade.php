@@ -64,84 +64,82 @@
                     <div>
                         <div class="bg-gradient-to-br from-orange-500 to-red-600 rounded-xl p-8 text-center mb-6">
                             <i class="fas fa-school text-6xl text-white mb-4"></i>
-                            <h3 class="text-xl font-roboto text-white">Gestión Educativa</h3>
+                            <h3 class="text-xl font-roboto text-white">{{ __('index.gestion_educativa') }}</h3>
                         </div>
 
                         <div class="space-y-4">
                             <div class="bg-orange-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-orange-900 mb-2">
                                     <i class="fas fa-graduation-cap text-orange-600 mr-2"></i>
-                                    Cliente
+                                    {{ __('index.cliente') }}
                                 </h4>
-                                <p class="text-orange-800">Secretaría de Educación - Programa Escuelas Tiempo Completo</p>
+                                <p class="text-orange-800">{{ __('index.secretaria_educacion') }}</p>
                             </div>
 
                             <div class="bg-blue-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-blue-900 mb-2">
                                     <i class="fas fa-calendar text-blue-600 mr-2"></i>
-                                    Período
+                                    {{ __('index.duracion') }}
                                 </h4>
-                                <p class="text-blue-800">10 meses de desarrollo (2020-2021)</p>
+                                <p class="text-blue-800">1 {{ __('year') }} 10 {{ __('index.meses_desarrollo') }} (2020-2022)</p>
                             </div>
 
                             <div class="bg-green-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-green-900 mb-2">
                                     <i class="fas fa-trophy text-green-600 mr-2"></i>
-                                    Logro
+                                    {{ __('index.logro') }}
                                 </h4>
-                                <p class="text-green-800">Sistema crítico para gestión de 200+ escuelas</p>
+                                <p class="text-green-800">{{ __('index.sistema_critico_gestion') }}</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">Sobre el Proyecto</h3>
+                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">{{ __('index.descripcion_del_proyecto') }}</h3>
                         <p class="text-gray-600 mb-6">
-                            Sistema integral para la gestión del Programa de Escuelas de Tiempo Completo,
-                            automatizando procesos administrativos críticos como nóminas, pagos y asistencias
-                            de personal docente y administrativo.
+                            {{ __('index.petc_description') }}
                         </p>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Funcionalidades Clave</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.funcionalidades_clave') }}</h4>
                         <ul class="space-y-2 mb-6">
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-money-check-alt text-green-500 mr-3"></i>
-                                Gestión completa de nóminas
+                                {{ __('index.gestion_completa_nominas') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-search-dollar text-green-500 mr-3"></i>
-                                Verificación automática de pagos
+                                {{ __('index.verificacion_automatica_pagos') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-clipboard-list text-green-500 mr-3"></i>
-                                Generación de listas de asistencia
+                                {{ __('index.generacion_listas_asistencia') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-chalkboard-teacher text-green-500 mr-3"></i>
-                                Módulo especializado para docentes
+                                {{ __('index.modulo_especializado_docentes') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-chart-bar text-green-500 mr-3"></i>
-                                Reportes estadísticos avanzados
+                                {{ __('index.reportes_estadisticos_avanzados') }}
                             </li>
                         </ul>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Impacto Educativo</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.impacto_educativo') }}</h4>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="bg-accent/10 rounded-lg p-4 text-center">
                                 <div class="text-2xl font-bold text-accent">200+</div>
-                                <div class="text-sm text-gray-600">Escuelas Beneficiadas</div>
+                                <div class="text-sm text-gray-600">{{ __('index.escuelas_beneficiadas') }}</div>
                             </div>
                             <div class="bg-accent/10 rounded-lg p-4 text-center">
                                 <div class="text-2xl font-bold text-accent">1500+</div>
-                                <div class="text-sm text-gray-600">Maestros Gestionados</div>
+                                <div class="text-sm text-gray-600">{{ __('index.maestros_gestionados') }}</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="mt-8">
-                    <h4 class="text-xl font-roboto text-gray-900 mb-4">Tecnologías Implementadas</h4>
+                    <h4 class="text-xl font-roboto text-gray-900 mb-4">{{ __('index.tecnologias_utilizadas') }}</h4>
                     <div class="flex flex-wrap gap-3">
                         <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full font-medium">Laravel 7</span>
                         <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-medium">MySQL</span>

@@ -77,17 +77,17 @@
                             <div class="bg-purple-50 p-4 rounded-lg">
                                 <h4 class="font-semibold text-purple-900 mb-2">
                                     <i class="fas fa-warehouse text-purple-600 mr-2"></i>
-                                    Sector
+                                    {{ __('index.sector') }}
                                 </h4>
-                                <p class="text-purple-800">Gestión y Control de Inventarios</p>
+                                <p class="text-purple-800">{{ __('index.gestion_y_control_de_inventarios') }}</p>
                             </div>
 
                             <div class="bg-indigo-50 p-4 rounded-lg">
                                 <h4 class="font-semibold text-indigo-900 mb-2">
                                     <i class="fas fa-rocket text-indigo-600 mr-2"></i>
-                                    Innovación
+                                     {{ __('index.inovacion') }}
                                 </h4>
-                                <p class="text-indigo-800">Tecnologías modernas: Laravel + Livewire</p>
+                                <p class="text-indigo-800">{{ __('index.inovacion_text_laravel_livewire') }}</p>
                             </div>
 
                             <div class="bg-cyan-50 p-4 rounded-lg">
@@ -95,71 +95,70 @@
                                     <i class="fas fa-mobile-alt text-cyan-600 mr-2"></i>
                                     UX/UI
                                 </h4>
-                                <p class="text-cyan-800">Interfaz moderna con Tailwind CSS</p>
+                                <p class="text-cyan-800">{{ __('index.interfaz_moderna') }}</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">Sobre el Proyecto</h3>
+                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">{{ __('index.descripcion_del_proyecto') }}</h3>
                         <p class="text-gray-600 mb-6">
-                            Sistema integral de gestión de inventarios desarrollado con tecnologías modernas para optimizar el control de stock, automatizar procesos de reabastecimiento y proporcionar análisis detallados de movimientos de inventario en tiempo real.
-
+                            {{ __('index.iventory_descripcion_del_proyecto_text') }}
                         </p>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Funcionalidades Clave</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.funcionalidades_clave') }}</h4>
                         <ul class="space-y-2 mb-6">
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-bolt text-yellow-500 mr-3"></i>
-                                Interfaz reactiva con Livewire
+                                {{ __('index.interfaz_reactiva_con_livewire') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-bell text-red-500 mr-3"></i>
-                                Alertas automáticas de stock bajo
+                                {{ __('index.alertas_automaticas_stock_bajo') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-chart-bar text-green-500 mr-3"></i>
-                                Reportes y análisis en tiempo real
+                                {{ __('index.reportes_y_analisis_en_tiempo_real') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-mobile-alt text-purple-500 mr-3"></i>
-                                Diseño completamente responsive
+                                {{ __('index.diseño_completamente_responsive') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-barcode text-blue-500 mr-3"></i>
-                                Escáner de códigos de barras integrado
+                                {{ __('index.escaner_de_codigos_de_barras_integrado') }}
                             </li>
                         </ul>
 
-                         <h4 class="text-xl font-semibold text-gray-900 mb-3">Módulos Principales</h4>
+                         <h4 class="text-xl font-semibold text-gray-900 mb-3">{{ __('index.modulos_principales') }}</h4>
                         <div class="space-y-3 mb-6">
                             <div class="bg-purple-50 p-3 rounded-lg">
                                 <h5 class="font-semibold text-purple-900 mb-1">
                                     <i class="fas fa-cube text-purple-600 mr-2"></i>
-                                    Gestión de Productos
+                                    {{ __('index.gestion_de_productos') }}
                                 </h5>
-                                <p class="text-purple-800 text-sm">Catálogo completo con categorías, precios y especificaciones detalladas</p>
+                                <p class="text-purple-800 text-sm">{{ __('index.gestion_de_productos_text') }}</p>
                             </div>
                             <div class="bg-indigo-50 p-3 rounded-lg">
                                 <h5 class="font-semibold text-indigo-900 mb-1">
                                     <i class="fas fa-truck text-indigo-600 mr-2"></i>
-                                    Control de Proveedores
+                                    {{ __('index.control_de_proveedores') }}
                                 </h5>
-                                <p class="text-indigo-800 text-sm">Gestión integral de proveedores con historial de órdenes y evaluaciones</p>
+                                <p class="text-indigo-800 text-sm">{{ __('index.control_de_proveedores_text') }}</p>
                             </div>
                             <div class="bg-cyan-50 p-3 rounded-lg">
                                 <h5 class="font-semibold text-cyan-900 mb-1">
                                     <i class="fas fa-exchange-alt text-cyan-600 mr-2"></i>
-                                    Movimientos de Stock
+                                    {{ __('index.movimientos_de_stock') }}
                                 </h5>
-                                <p class="text-cyan-800 text-sm">Registro detallado de entradas, salidas y transferencias de inventario</p>
+                                <p class="text-cyan-800 text-sm">{{ __('index.movimientos_de_stock_text') }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="mt-8">
-                    <h4 class="text-xl font-roboto text-gray-900 mb-4">Tecnologías Implementadas</h4>
+                    <h4 class="text-xl font-roboto text-gray-900 mb-4">{{ __('index.tecnologias_utilizadas') }}</h4>
                     <div class="flex flex-wrap gap-3">
                         <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full font-medium">Laravel</span>
                         <span class="px-4 py-2 bg-pink-100 text-pink-800 rounded-full font-medium">Livewire</span>

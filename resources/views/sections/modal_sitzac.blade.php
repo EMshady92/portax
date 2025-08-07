@@ -84,7 +84,7 @@
                             <div class="bg-green-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-green-900 mb-2">
                                     <i class="fas fa-building text-green-600 mr-2"></i>
-                                    Cliente
+                                    {{ __('index.cliente') }}
                                 </h4>
                                 <p class="text-green-800">Tribunal de Justicia Administrativa del Estado de Zacatecas</p>
                             </div>
@@ -92,62 +92,60 @@
                             <div class="bg-blue-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-blue-900 mb-2">
                                     <i class="fas fa-calendar text-blue-600 mr-2"></i>
-                                    Duración
+                                    {{ __('index.duracion') }}
                                 </h4>
-                                <p class="text-blue-800">12 meses de desarrollo (2021-2022)</p>
+                                <p class="text-blue-800">1 {{ __('index.year') }} 3 {{ __('index.meses_desarrollo') }} (2021-2022)</p>
                             </div>
 
                             <div class="bg-purple-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-purple-900 mb-2">
-                                    <i class="fas fa-users text-purple-600 mr-2"></i>
-                                    Equipo
+                                    <i class="fas fa-code text-purple-600 mr-2"></i>
+                                    {{ __('index.mi_rol') }}
                                 </h4>
-                                <p class="text-purple-800">Lead Developer en equipo de 4 personas</p>
+                                <p class="text-purple-800">{{ __('index.full_stack_desarrollador') }} & {{ __('index.arquitecto_de_sistema') }}</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">Descripción del Proyecto</h3>
+                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">{{ __('index.descripcion_del_proyecto') }}</h3>
                         <p class="text-gray-600 mb-6">
-                            Plataforma digital integral que moderniza el acceso a la justicia administrativa,
-                            permitiendo a ciudadanos y abogados realizar trámites judiciales de forma remota
-                            y eficiente, reduciendo tiempos y costos.
+                           {{ __('index.sitzac_description') }}
                         </p>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Módulos Desarrollados</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.caracteristicas_principales') }}</h4>
                         <ul class="space-y-2 mb-6">
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-file-alt text-green-500 mr-3"></i>
-                                Promoción de juicios en línea
+                                {{ __('index.promocion_juicio_linea') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-bell text-green-500 mr-3"></i>
-                                Notificaciones vía Boletín Electrónico
+                                {{ __('index.notificacion_boletin') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-mailbox text-green-500 mr-3"></i>
-                                Buzón Virtual para promociones
+                                {{ __('index.buzon_virtual') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-calendar-check text-green-500 mr-3"></i>
-                                Sistema de citas para atención directa
+                                {{ __('index.sistema_citas') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-signature text-green-500 mr-3"></i>
-                                Firma Electrónica (e.Fija) integrada
+                                {{ __('index.firma_electronica') }}
                             </li>
                         </ul>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Impacto Social</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.impacto_y_resultados') }}</h4>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="bg-accent/10 rounded-lg p-4 text-center">
                                 <div class="text-2xl font-bold text-accent">5000+</div>
-                                <div class="text-sm text-gray-600">Usuarios Registrados</div>
+                                <div class="text-sm text-gray-600">{{ __('index.usuarios_registrados') }}</div>
                             </div>
                             <div class="bg-accent/10 rounded-lg p-4 text-center">
                                 <div class="text-2xl font-bold text-accent">70%</div>
-                                <div class="text-sm text-gray-600">Reducción Tiempos</div>
+                                <div class="text-sm text-gray-600">{{ __('index.reduccion_en_tiempo') }}</div>
                             </div>
                         </div>
                     </div>

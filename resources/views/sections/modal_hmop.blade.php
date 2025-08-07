@@ -78,17 +78,17 @@
                             <div class="bg-cyan-50 p-4 rounded-lg">
                                 <h4 class="font-semibold text-cyan-900 mb-2">
                                     <i class="fas fa-industry text-cyan-600 mr-2"></i>
-                                    Sector
+                                    {{ __('index.sector') }}
                                 </h4>
-                                <p class="text-cyan-800">Mantenimiento Industrial HVAC</p>
+                                <p class="text-cyan-800">{{ __('index.mantenimiento_industrial_hvac') }}</p>
                             </div>
 
                             <div class="bg-blue-50 p-4 rounded-lg">
                                 <h4 class="font-semibold text-blue-900 mb-2">
                                     <i class="fas fa-rocket text-blue-600 mr-2"></i>
-                                    Innovación
+                                    {{ __('index.inovacion') }}
                                 </h4>
-                                <p class="text-blue-800">Tecnologías modernas: Laravel + Livewire</p>
+                                <p class="text-blue-800">{{ __('index.inovacion_text_laravel_livewire') }}</p>
                             </div>
 
                             <div class="bg-green-50 p-4 rounded-lg">
@@ -96,70 +96,70 @@
                                     <i class="fas fa-mobile-alt text-green-600 mr-2"></i>
                                     UX/UI
                                 </h4>
-                                <p class="text-green-800">Interfaz moderna con Tailwind CSS</p>
+                                <p class="text-green-800">{{ __('index.interfaz_moderna') }}</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">Sobre el Proyecto</h3>
+                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">{{ __('index.descripcion_del_proyecto') }}</h3>
                         <p class="text-gray-600 mb-6">
-                            HMOP es una plataforma especializada para la gestión integral de mantenimiento de equipos HVAC (Heating, Ventilation, and Air Conditioning), desarrollada con tecnologías modernas para ofrecer una experiencia de usuario superior en el sector industrial.
+                           {{ __('index.hmop_description') }}
                         </p>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Funcionalidades Clave</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.funcionalidades_clave') }}</h4>
                          <ul class="space-y-2 mb-6">
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-bolt text-yellow-500 mr-3"></i>
-                                Interfaz reactiva con Livewire
+                                {{ __('index.interfaz_reactiva') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-calendar-alt text-blue-500 mr-3"></i>
-                                Programación inteligente de mantenimientos
+                                {{ __('index.programacion_inteligente') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-chart-line text-green-500 mr-3"></i>
-                                Dashboard con métricas en tiempo real
+                                {{ __('index.dashboard_metrica_tiempo_real') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-mobile-alt text-purple-500 mr-3"></i>
-                                Diseño completamente responsive
+                                {{ __('index.diseño_completamente_responsive') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-history text-orange-500 mr-3"></i>
-                                Historial detallado de intervenciones
+                                {{ __('index.historial_detallado_intervenciones') }}
                             </li>
                         </ul>
 
-                         <h4 class="text-xl font-semibold text-gray-900 mb-3">Módulos Principales</h4>
+                         <h4 class="text-xl font-semibold text-gray-900 mb-3">{{ __('index.modulos_principales') }}</h4>
                         <div class="space-y-3 mb-6">
                             <div class="bg-blue-50 p-3 rounded-lg">
                                 <h5 class="font-semibold text-blue-900 mb-1">
                                     <i class="fas fa-tools text-blue-600 mr-2"></i>
-                                    Gestión de Equipos
+                                    {{ __('index.gestion_equipos') }}
                                 </h5>
-                                <p class="text-blue-800 text-sm">Inventario completo con especificaciones técnicas y predicción de reemplazos</p>
+                                <p class="text-blue-800 text-sm">{{ __('index.gestion_equipos_text') }}</p>
                             </div>
                             <div class="bg-green-50 p-3 rounded-lg">
                                 <h5 class="font-semibold text-green-900 mb-1">
                                     <i class="fas fa-calendar-check text-green-600 mr-2"></i>
-                                    Programación de Servicios
+                                    {{ __('index.programacion_servicios') }}
                                 </h5>
-                                <p class="text-green-800 text-sm">Calendario inteligente con optimización de rutas para técnicos</p>
+                                <p class="text-green-800 text-sm">{{ __('index.programacion_servicios_text') }}</p>
                             </div>
                             <div class="bg-purple-50 p-3 rounded-lg">
                                 <h5 class="font-semibold text-purple-900 mb-1">
                                     <i class="fas fa-boxes text-purple-600 mr-2"></i>
-                                    Control de Inventarios
+                                    {{ __('index.control_inventarios') }}
                                 </h5>
-                                <p class="text-purple-800 text-sm">Gestión de repuestos con alertas de stock y trazabilidad de costos</p>
+                                <p class="text-purple-800 text-sm">{{ __('index.control_inventarios_text') }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="mt-8">
-                    <h4 class="text-xl font-roboto text-gray-900 mb-4">Tecnologías Implementadas</h4>
+                    <h4 class="text-xl font-roboto text-gray-900 mb-4">{{ __('index.tecnologias_utilizadas') }}</h4>
                     <div class="flex flex-wrap gap-3">
                         <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full font-medium">Laravel 7</span>
                         <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-medium">MySQL</span>

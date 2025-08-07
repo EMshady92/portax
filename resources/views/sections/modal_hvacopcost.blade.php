@@ -49,77 +49,75 @@
                             <div class="bg-blue-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-blue-900 mb-2">
                                     <i class="fas fa-users text-blue-600 mr-2"></i>
-                                    Cliente
+                                       {{ __('index.cliente') }}
                                 </h4>
-                                <p class="text-blue-800">Desprosoft - Empresa especializada en software HVAC</p>
+                                <p class="text-blue-800">{{ __('index.ndl_empresa') }}</p>
                             </div>
 
                             <div class="bg-green-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-green-900 mb-2">
                                     <i class="fas fa-calendar text-green-600 mr-2"></i>
-                                    Duración
+                                    {{ __('index.duracion') }}
                                 </h4>
-                                <p class="text-green-800">8 meses de desarrollo (2022-2023)</p>
+                                <p class="text-green-800">2 {{ __('index.years') }} 3 {{ __('index.meses_desarrollo') }} (2023-2025)</p>
                             </div>
 
                             <div class="bg-purple-50 p-4 rounded-lg">
                                 <h4 class="font-roboto text-purple-900 mb-2">
                                     <i class="fas fa-code text-purple-600 mr-2"></i>
-                                    Mi Rol
+                                    {{ __('index.mi_rol') }}
                                 </h4>
-                                <p class="text-purple-800">Full-Stack Developer & Arquitecto de Sistema</p>
+                                <p class="text-purple-800">{{ __('index.develop_team_lead') }}</p>
                             </div>
                         </div>
                     </div>
 
                     <div>
-                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">Descripción del Proyecto</h3>
+                        <h3 class="text-2xl font-roboto text-gray-900 mb-4">{{ __('index.descripcion_del_proyecto') }}</h3>
                         <p class="text-gray-600 mb-6">
-                            Software online completo para análisis energético, financiero y de confort de proyectos HVAC.
-                            La plataforma permite a ingenieros y consultores convertir datos técnicos simples en análisis
-                            valiosos para guiar a sus clientes en la toma de decisiones financieras y técnicas óptimas.
+                            {{ __('index.descripcion_proyecto_text_hvac') }}
                         </p>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Características Principales</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.caracteristicas_principales') }}</h4>
                         <ul class="space-y-2 mb-6">
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                                Cálculos automáticos de eficiencia energética
+                                {{ __('index.calculos_automaticos_eficiencia_energetica') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                                Análisis financiero ROI y payback
+                                {{ __('index.analisis_financiero_roi_y_payback') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                                Reportes automáticos personalizables
+                                {{ __('index.reportes_automaticos_personalizables') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                                Dashboard interactivo con gráficas
+                                {{ __('index.dashboard_interactivo_con_graficas') }}
                             </li>
                             <li class="flex items-center text-gray-600">
                                 <i class="fas fa-check-circle text-green-500 mr-3"></i>
-                                Comparación de escenarios NEW vs RETROFIT
+                                {{ __('index.comparacion_escenarios_new_vs_retrofit') }}
                             </li>
                         </ul>
 
-                        <h4 class="text-xl font-roboto text-gray-900 mb-3">Impacto y Resultados</h4>
+                        <h4 class="text-xl font-roboto text-gray-900 mb-3">{{ __('index.impacto_y_resultados') }}</h4>
                         <div class="grid grid-cols-2 gap-4">
                             <div class="bg-accent/10 rounded-lg p-4 text-center">
                                 <div class="text-2xl font-bold text-accent">300+</div>
-                                <div class="text-sm text-gray-600">Proyectos Analizados</div>
+                                <div class="text-sm text-gray-600">{{ __('index.proyectos_analizados') }}</div>
                             </div>
                             <div class="bg-accent/10 rounded-lg p-4 text-center">
                                 <div class="text-2xl font-bold text-accent">50%</div>
-                                <div class="text-sm text-gray-600">Reducción en Tiempo</div>
+                                <div class="text-sm text-gray-600">{{ __('index.reduccion_en_tiempo') }}</div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="mt-8">
-                    <h4 class="text-xl font-roboto text-gray-900 mb-4">Tecnologías Utilizadas</h4>
+                    <h4 class="text-xl font-roboto text-gray-900 mb-4">{{ __('index.tecnologias_utilizadas') }}</h4>
                     <div class="flex flex-wrap gap-3">
                         <span class="px-4 py-2 bg-red-100 text-red-800 rounded-full font-medium">Laravel 9</span>
                         <span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-medium">MySQL</span>
