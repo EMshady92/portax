@@ -9,6 +9,29 @@
                 </p>
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Cupones -->
+                <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
+                    <div class="h-48 bg-gradient-to-br from-[#fcd34d] to-[#a0522de6] flex items-center justify-center">
+                        <i class="fa-solid fa-qrcode text-6xl text-white"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-roboto text-gray-900 mb-3">Cafe Coupons</h3>
+                        <p class="text-gray-600 mb-4">
+                            {{ __('index.cafe_coupons_port_summary') }}
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge px-3 py-1 bg-red-100 text-red-800 text-sm rounded-full">Laravel</span>
+                             <span class="tech-badge px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">Filament</span>
+                            <span class="tech-badge px-3 py-1 bg-blue-100 text-blue-800 text-sm rounded-full">MySQL</span>
+                            <span class="tech-badge px-3 py-1 bg-yellow-100 text-yellow-800 text-sm rounded-full">JavaScript</span>
+                        </div>
+                        <button onclick="toggleDetails('coupon-modal');" class="w-full bg-primary hover:bg-secondary text-white py-2 rounded-lg transition-colors duration-300">
+                            {{ __('index.ver_detalles') }}
+                        </button>
+                    </div>
+                </div>
+
                 <!-- Project 1 -->
                 <div class="bg-white rounded-xl shadow-lg card-hover overflow-hidden">
                     <div class="h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">

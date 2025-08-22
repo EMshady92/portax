@@ -75,9 +75,40 @@
 
                 <div class="grid md:grid-cols-2 gap-8">
                     <div>
+
+
                         <div class="bg-gradient-to-br from-green-500 to-teal-600 rounded-xl p-8 text-center mb-6">
-                            <i class="fas fa-gavel text-6xl text-white mb-4"></i>
-                            <h3 class="text-xl font-roboto text-white">Justicia Digital</h3>
+                            <div class="relative w-full h-32 mb-4">
+                                <!-- Carousel Container -->
+                                <div id="sitzac-carousel" class="relative w-full h-full overflow-hidden rounded-lg">
+                                    <!-- Icon Slide -->
+                                    <div class="carousel-slide-sitzac active flex items-center justify-center h-full">
+                                        <i class="fas fa-gavel text-6xl text-white mb-4"></i>
+                                    </div>
+                                    <!-- Image Slides -->
+                                    <div class="carousel-slide-sitzac flex items-center justify-center h-full">
+                                        <img src="{{asset('/images/hvacopcost_imgs/portada_hvac.png')}}" alt="Justicia Digital" class="max-h-full max-w-full object-contain rounded-lg shadow-lg">
+                                    </div>
+                                    <div class="carousel-slide-sitzac flex items-center justify-center h-full">
+                                        <img src="{{asset('/images/hvacopcost_imgs/new_p.png')}}" alt="Energy Analysis" class="max-h-full max-w-full object-contain rounded-lg shadow-lg">
+                                    </div>
+                                    <div class="carousel-slide-sitzac flex items-center justify-center h-full">
+                                        <img src="{{asset('/images/hvacopcost_imgs/sols.png')}}" alt="HVAC Solutions" class="max-h-full max-w-full object-contain rounded-lg shadow-lg">
+                                    </div>
+                                    <div class="carousel-slide-sitzac flex items-center justify-center h-full">
+                                        <img src="{{asset('/images/hvacopcost_imgs/resul.png')}}" alt="HVAC Results" class="max-h-full max-w-full object-contain rounded-lg shadow-lg">
+                                    </div>
+                                </div>
+
+                                <!-- Carousel Indicators -->
+                                <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                                    <button class="carousel-indicator-sitzac active w-2 h-2 bg-white rounded-full opacity-50 hover:opacity-100" onclick="showSlideSitzac('sitzac-carousel', 0)"></button>
+                                    <button class="carousel-indicator-sitzac w-2 h-2 bg-white rounded-full opacity-50 hover:opacity-100" onclick="showSlideSitzac('sitzac-carousel', 1)"></button>
+                                    <button class="carousel-indicator-sitzac w-2 h-2 bg-white rounded-full opacity-50 hover:opacity-100" onclick="showSlideSitzac('sitzac-carousel', 2)"></button>
+                                    <button class="carousel-indicator-sitzac w-2 h-2 bg-white rounded-full opacity-50 hover:opacity-100" onclick="showSlideSitzac('sitzac-carousel', 3)"></button>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white">Justicia Digital</h3>
                         </div>
 
                         <div class="space-y-4">
@@ -166,3 +197,65 @@
         </div>
     </div>
 
+<script>
+       // Carousel functionality
+        let currentSlidesSitzac = {};
+        let carouselIntervalsSitzac = {};
+
+        function showSlideSitzac(carouselId, slideIndex) {
+            const sitzaccarousel = document.getElementById(carouselId);
+            const sitzacslides = sitzaccarousel.querySelectorAll('.carousel-slide-sitzac');
+            const indicators = sitzaccarousel.parentElement.querySelectorAll('.carousel-indicator-sitzac');
+
+            // Hide all slides
+            sitzacslides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+
+            // Show current slide
+            sitzacslides[slideIndex].classList.add('active');
+            indicators[slideIndex].classList.add('active');
+
+            currentSlidesSitzac[carouselId] = slideIndex;
+        }
+
+        function nextSlideSitzac(carouselId) {
+            const sitzaccarousel = document.getElementById(carouselId);
+            const sitzacslides = sitzaccarousel.querySelectorAll('.carousel-slide-sitzac');
+            const current = currentSlidesSitzac[carouselId] || 0;
+            const next = (current + 1) % sitzacslides.length;
+            showSlideSitzac(carouselId, next);
+        }
+
+        function startCarouselSitzac(carouselId) {
+            currentSlidesSitzac[carouselId] = 0;
+            carouselIntervalsSitzac[carouselId] = setInterval(() => {
+                nextSlideSitzac(carouselId);
+            }, 2000); // Change slide every 3 seconds
+        }
+
+        function stopCarousel(carouselId) {
+            if (carouselIntervalsSitzac[carouselId]) {
+                clearInterval(carouselIntervalsSitzac[carouselId]);
+            }
+        }
+
+        // Initialize carousels when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Start HVAC carousel when modal is opened
+            const sitzacModal = document.getElementById('sitzac-modal');
+            if (sitzacModal) {
+                const observer = new MutationObserver(function(mutations) {
+                    mutations.forEach(function(mutation) {
+                        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                            if (!sitzacModal.classList.contains('hidden')) {
+                                startCarouselSitzac('sitzac-carousel');
+                            } else {
+                                stopCarousel('sitzac-carousel');
+                            }
+                        }
+                    });
+                });
+                observer.observe(sitzacModal, { attributes: true });
+            }
+        });
+</script>

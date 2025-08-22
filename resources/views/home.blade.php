@@ -24,6 +24,8 @@
     </footer>
 
      <!-- Project Modals -->
+@include('sections.modal_coupon')
+
 @include('sections.modal_hvacopcost')
 
 @include('sections.modal_sitzac')
